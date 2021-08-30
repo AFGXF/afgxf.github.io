@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://afgxf.github.io</id>
+    <title>AFGXF&#39;s Blog • Posts by &#34;whk&#34; tag</title>
+    <link href="https://afgxf.github.io" />
+    <updated>2021-03-31T03:28:28.000Z</updated>
+    <category term="WHK" />
+    <category term="文化课" />
+    <category term="笔记" />
+    <category term="博客管理" />
+    <category term="Shell" />
+    <category term="bash" />
+    <category term="zsh" />
+    <category term="Linux" />
+    <category term="New" />
+    <category term="随笔" />
+    <category term="树莓派" />
+    <category term="题解" />
+    <category term="洛谷" />
+    <category term="NOIP普及/CSP-J" />
+    <category term="Pipeline" />
+    <entry>
+        <id>https://afgxf.github.io/2021/03/31/2021327-di-li-bi-ji/</id>
+        <title>2021.3.27地理笔记</title>
+        <link rel="alternate" href="https://afgxf.github.io/2021/03/31/2021327-di-li-bi-ji/"/>
+        <content type="html">&lt;p&gt;&lt;em&gt;这是学校网课(免费试听)的笔记&lt;/em&gt;&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+
+&lt;h1 id=&#34;地球和地图&#34;&gt;&lt;a href=&#34;#地球和地图&#34; class=&#34;headerlink&#34; title=&#34;地球和地图&#34;&gt;&lt;/a&gt;地球和地图&lt;/h1&gt;&lt;h2 id=&#34;地球的公转&#34;&gt;&lt;a href=&#34;#地球的公转&#34; class=&#34;headerlink&#34; title=&#34;地球的公转&#34;&gt;&lt;/a&gt;地球的公转&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;节气&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;直射纬线&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;时间&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;昼夜长短&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;昼夜长短变化&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;春分&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;赤道&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3.21&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;昼夜平分&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;昼变长夜变短&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;夏至&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;北回归线&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;6.22&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;昼长夜短&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;昼变短夜变长&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;秋分&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;赤道&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;9.23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;昼夜平分&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;昼变短夜变长&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;冬至&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南回归线&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;12.22&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;昼短夜长&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;昼变长夜变短&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;左昼长夜短 右昼短夜长&lt;/li&gt;
+&lt;li&gt;上昼变长夜变短 下昼变短夜变长&lt;/li&gt;
+&lt;li&gt;做题技巧:根据问题信息来分析&lt;/li&gt;
+&lt;li&gt;正午太阳影子:夏至最长 冬至最短 春分秋分中等&lt;/li&gt;
+&lt;li&gt;例题:&lt;ul&gt;
+&lt;li&gt;楼间距:冬至影子长度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;地图&#34;&gt;&lt;a href=&#34;#地图&#34; class=&#34;headerlink&#34; title=&#34;地图&#34;&gt;&lt;/a&gt;地图&lt;/h2&gt;&lt;h3 id=&#34;三要素&#34;&gt;&lt;a href=&#34;#三要素&#34; class=&#34;headerlink&#34; title=&#34;三要素&#34;&gt;&lt;/a&gt;三要素&lt;/h3&gt;&lt;p&gt;  比例尺 方向 图例&lt;/p&gt;
+&lt;h3 id=&#34;比例尺&#34;&gt;&lt;a href=&#34;#比例尺&#34; class=&#34;headerlink&#34; title=&#34;比例尺&#34;&gt;&lt;/a&gt;比例尺&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;公式: 图上距离/实际距离=比例尺&lt;/li&gt;
+&lt;li&gt;比例尺换算&lt;ul&gt;
+&lt;li&gt;1km=10^5cm (5个0)&lt;/li&gt;
+&lt;li&gt;数字/文字式转换&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;比例尺比较 分母大的小,分母小的大.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;同样的图幅&lt;/strong&gt; 比例尺越大,范围小,事物粗略;比例尺越大,范围小,事物粗略.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;同一地区&lt;/strong&gt; 图幅越大,比例尺越大.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;判断方向&#34;&gt;&lt;a href=&#34;#判断方向&#34; class=&#34;headerlink&#34; title=&#34;判断方向&#34;&gt;&lt;/a&gt;判断方向&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;一般地图:上北下南,左西右东&lt;/li&gt;
+&lt;li&gt;指向标地图:箭头一般指向北&lt;/li&gt;
+&lt;li&gt;经纬网地图:经线指示南北,纬线指示东西&lt;/li&gt;
+&lt;li&gt;带极点的地图:&lt;ol&gt;
+&lt;li&gt;根据自转方向(北逆南顺)判定南北极.&lt;/li&gt;
+&lt;li&gt;箭头方向标”东”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;等高线地形图&#34;&gt;&lt;a href=&#34;#等高线地形图&#34; class=&#34;headerlink&#34; title=&#34;等高线地形图&#34;&gt;&lt;/a&gt;等高线地形图&lt;/h2&gt;&lt;h3 id=&#34;海拔和相对海拔&#34;&gt;&lt;a href=&#34;#海拔和相对海拔&#34; class=&#34;headerlink&#34; title=&#34;海拔和相对海拔&#34;&gt;&lt;/a&gt;海拔和相对海拔&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;海拔 某点高出海平面的高度&lt;/li&gt;
+&lt;li&gt;相对高度 某点高出另一点的高度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;等高距&#34;&gt;&lt;a href=&#34;#等高距&#34; class=&#34;headerlink&#34; title=&#34;等高距&#34;&gt;&lt;/a&gt;等高距&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;等高距: 两条等高线数值的差.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;山体部位&#34;&gt;&lt;a href=&#34;#山体部位&#34; class=&#34;headerlink&#34; title=&#34;山体部位&#34;&gt;&lt;/a&gt;山体部位&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;山峰: 等高线成环形,中间高,四周低&lt;/li&gt;
+&lt;li&gt;山脊: 等高线向低处突出&lt;/li&gt;
+&lt;li&gt;山谷: 等高线向低处突出 孕育河流&lt;/li&gt;
+&lt;li&gt;鞍部: 山峰间较平坦的部位&lt;/li&gt;
+&lt;li&gt;陡崖: 等高线密集,成为一条线&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高谷低脊&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;考点&#34;&gt;&lt;a href=&#34;#考点&#34; class=&#34;headerlink&#34; title=&#34;考点&#34;&gt;&lt;/a&gt;考点&lt;/h3&gt;&lt;h4 id=&#34;计算题&#34;&gt;&lt;a href=&#34;#计算题&#34; class=&#34;headerlink&#34; title=&#34;计算题&#34;&gt;&lt;/a&gt;计算题&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;相对高度&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;两点A,B高度确定 -&amp;gt; 海拔差 A-B&lt;/li&gt;
+&lt;li&gt;一点A确定,另一点B不确定 -&amp;gt; B的区间-A的海拔&lt;/li&gt;
+&lt;li&gt;两点A,B不确定 -&amp;gt; A区间最大-B区间最小,A区间最小-B区间最大.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;温差/温度计算&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;先计算相对高度&lt;/li&gt;
+&lt;li&gt;海拔每升高100m,气温下降0.6摄氏度.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;等高线性质&#34;&gt;&lt;a href=&#34;#等高线性质&#34; class=&#34;headerlink&#34; title=&#34;等高线性质&#34;&gt;&lt;/a&gt;等高线性质&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;等高线密集,坡度陡;等高线稀疏,坡度陡.&lt;/li&gt;
+&lt;li&gt;河流流速/地形陡缓&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;运动题&#34;&gt;&lt;a href=&#34;#运动题&#34; class=&#34;headerlink&#34; title=&#34;运动题&#34;&gt;&lt;/a&gt;运动题&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;攀岩:陡崖&lt;/li&gt;
+&lt;li&gt;漂流/激流勇进:山谷&lt;/li&gt;
+&lt;li&gt;登山:山脊&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;开发&#34;&gt;&lt;a href=&#34;#开发&#34; class=&#34;headerlink&#34; title=&#34;开发&#34;&gt;&lt;/a&gt;开发&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;修路:&lt;ul&gt;
+&lt;li&gt;平行于等高线修路&lt;/li&gt;
+&lt;li&gt;否则山谷架桥,山脊开隧道.&lt;/li&gt;
+&lt;li&gt;架桥&lt;ul&gt;
+&lt;li&gt;平原架桥:&lt;ul&gt;
+&lt;li&gt;减少耕地占用&lt;/li&gt;
+&lt;li&gt;便利桥下交通&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;高原架桥:&lt;ul&gt;
+&lt;li&gt;保护生态环境&lt;/li&gt;
+&lt;li&gt;维护生物多样性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;山地架桥:&lt;ul&gt;
+&lt;li&gt;减少坡度&lt;/li&gt;
+&lt;li&gt;减少距离&lt;/li&gt;
+&lt;li&gt;安全&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;饮水工程:从高处向低处引水,形成自流&lt;/li&gt;
+&lt;li&gt;水库:&lt;ul&gt;
+&lt;li&gt;最佳:峡谷地带,上游盆地&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;农业题&#34;&gt;&lt;a href=&#34;#农业题&#34; class=&#34;headerlink&#34; title=&#34;农业题&#34;&gt;&lt;/a&gt;农业题&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;陡坡:生态林&lt;/li&gt;
+&lt;li&gt;缓坡:梯田/果树(经济林)/畜牧业&lt;/li&gt;
+&lt;li&gt;平原:种植业&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;自然环境与杂项&#34;&gt;&lt;a href=&#34;#自然环境与杂项&#34; class=&#34;headerlink&#34; title=&#34;自然环境与杂项&#34;&gt;&lt;/a&gt;自然环境与杂项&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;宿营&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;避开:山谷/陡崖&lt;/li&gt;
+&lt;li&gt;建议:鞍部&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;灾害:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;陡坡:滑坡&lt;/li&gt;
+&lt;li&gt;山谷:泥石流&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;环境保护&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;陡坡发展种植业:水土流失,影响下游&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;聚落形成:河流下游&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;地形比较&#34;&gt;&lt;a href=&#34;#地形比较&#34; class=&#34;headerlink&#34; title=&#34;地形比较&#34;&gt;&lt;/a&gt;地形比较&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;山地和丘陵:&lt;ul&gt;
+&lt;li&gt;山地&amp;gt;500m,丘陵&amp;lt;500m&lt;/li&gt;
+&lt;li&gt;山地起伏更大&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;高原:外围陡峭,中间平坦&lt;/li&gt;
+&lt;li&gt;盆地:四周高,中间低.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;2021/3/27 学校组织网课笔记&lt;/em&gt;&lt;/p&gt;
+</content>
+        <category term="WHK" />
+        <category term="文化课" />
+        <category term="笔记" />
+        <updated>2021-03-31T03:28:28.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://afgxf.github.io/2021/03/31/2021327-sheng-wu-bi-ji/</id>
+        <title>2021.3.27生物笔记</title>
+        <link rel="alternate" href="https://afgxf.github.io/2021/03/31/2021327-sheng-wu-bi-ji/"/>
+        <content type="html">&lt;p&gt;&lt;em&gt;这是学校网课(免费试听)的笔记&lt;/em&gt;&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+
+&lt;h1 id=&#34;遗传和变异&#34;&gt;&lt;a href=&#34;#遗传和变异&#34; class=&#34;headerlink&#34; title=&#34;遗传和变异&#34;&gt;&lt;/a&gt;遗传和变异&lt;/h1&gt;&lt;h2 id=&#34;遗传和变异-1&#34;&gt;&lt;a href=&#34;#遗传和变异-1&#34; class=&#34;headerlink&#34; title=&#34;遗传和变异&#34;&gt;&lt;/a&gt;遗传和变异&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;遗传 -&amp;gt; 亲子间的相似性&lt;/li&gt;
+&lt;li&gt;变异 -&amp;gt; 亲子间和子代个体间的差异&lt;br&gt;&lt;strong&gt;遗传和变异是普遍存在的.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;性状和相对性状&#34;&gt;&lt;a href=&#34;#性状和相对性状&#34; class=&#34;headerlink&#34; title=&#34;性状和相对性状&#34;&gt;&lt;/a&gt;性状和相对性状&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;性状 -&amp;gt; 生物体所表现 形态结构/生理特征/行为方式等&lt;/li&gt;
+&lt;li&gt;相对性状 -&amp;gt; 同种生物 同一性状 不同表现形式 &lt;strong&gt;不一定只有两种表现形式&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;判定相对性状:&lt;ol&gt;
+&lt;li&gt;同种生物.&lt;/li&gt;
+&lt;li&gt;同一性状.&lt;/li&gt;
+&lt;li&gt;不同(两种及以上)表现形式.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;缺一不可&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;基因&#34;&gt;&lt;a href=&#34;#基因&#34; class=&#34;headerlink&#34; title=&#34;基因&#34;&gt;&lt;/a&gt;基因&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;基因在亲子间传递的桥梁是 &lt;strong&gt;精子和卵细胞(生殖细胞)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;层次: &lt;strong&gt;(生殖)细胞 -&amp;gt; 细胞核 -&amp;gt; 染色体 -&amp;gt; DNA -&amp;gt; 基因 -&amp;gt; 性状&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1条染色体=1个DNA=多个基因&lt;/strong&gt;  46条染色体=46个DNA=无数基因.&lt;/li&gt;
+&lt;li&gt;性状相同,基因 &lt;strong&gt;不一定&lt;/strong&gt; 相同.&lt;/li&gt;
+&lt;li&gt;染色体=DNA+蛋白质.&lt;/li&gt;
+&lt;li&gt;子女的每一对染色体中必有一条来自父方,另一条来自母方.&lt;/li&gt;
+&lt;li&gt;生殖细胞的染色体只有体细胞中每一对染色体的一半.&lt;/li&gt;
+&lt;li&gt;判断体细胞与生殖细胞:&lt;ul&gt;
+&lt;li&gt;体细胞染色体成对 &lt;/li&gt;
+&lt;li&gt;生殖细胞染色体不成对.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;成对的基因位于成对的染色体上,且位置一一对应.&lt;/li&gt;
+&lt;li&gt;体细胞通常具有 &lt;strong&gt;23对(46条)&lt;/strong&gt; 染色体.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;成熟的红细胞和血小板&lt;/strong&gt; 无细胞核和染色体.&lt;/li&gt;
+&lt;li&gt;生殖细胞有 &lt;strong&gt;23条&lt;/strong&gt; 染色体.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;显性和隐性的判断&#34;&gt;&lt;a href=&#34;#显性和隐性的判断&#34; class=&#34;headerlink&#34; title=&#34;显性和隐性的判断&#34;&gt;&lt;/a&gt;显性和隐性的判断&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;一对相对性状杂交,后代 &lt;strong&gt;全&lt;/strong&gt; 表现的性状是显性&lt;/li&gt;
+&lt;li&gt;无中生有,有为隐性&lt;/li&gt;
+&lt;li&gt;判断依据: &lt;strong&gt;亲代是xxx,子代是xxx&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;性染色体&#34;&gt;&lt;a href=&#34;#性染色体&#34; class=&#34;headerlink&#34; title=&#34;性染色体&#34;&gt;&lt;/a&gt;性染色体&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;男性&lt;ul&gt;
+&lt;li&gt;体细胞中性染色体:XY&lt;/li&gt;
+&lt;li&gt;Y染色体一定来自父方,另一条染色体来自母方.&lt;/li&gt;
+&lt;li&gt;体细胞中染色体:44条(或22对)+XY&lt;/li&gt;
+&lt;li&gt;精子中染色体:22条+X或22条+Y&lt;/li&gt;
+&lt;li&gt;精子中性染色体:X或Y&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;女性&lt;ul&gt;
+&lt;li&gt;女性体细胞中性染色体:XX&lt;/li&gt;
+&lt;li&gt;X染色体可能来自父方或母方.&lt;/li&gt;
+&lt;li&gt;体细胞中染色体:44条(或22对)+XX&lt;/li&gt;
+&lt;li&gt;卵细胞中染色体:22条+X&lt;/li&gt;
+&lt;li&gt;卵细胞中性染色体:X&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;体细胞中与性别有关的染色体:一对&lt;/li&gt;
+&lt;li&gt;生殖细胞中与性别有关的染色体:一条&lt;/li&gt;
+&lt;li&gt;胎儿性别决定于:受精卵形成时&lt;/li&gt;
+&lt;li&gt;生男生女取决于:哪种精子与卵细胞结合&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="WHK" />
+        <category term="文化课" />
+        <category term="笔记" />
+        <updated>2021-03-31T03:27:04.000Z</updated>
+    </entry>
+</feed>

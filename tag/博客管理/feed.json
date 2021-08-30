@@ -1,0 +1,20 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "AFGXF's Blog • All posts by \"博客管理\" tag",
+    "description": "",
+    "home_page_url": "https://afgxf.github.io",
+    "items": [
+        {
+            "id": "https://afgxf.github.io/2021/08/26/new-blog/",
+            "url": "https://afgxf.github.io/2021/08/26/new-blog/",
+            "title": "新的博客,新的开始",
+            "date_published": "2021-08-26T07:40:28.000Z",
+            "content_html": "<p>2021年8月29号,重建Hexo博客.</p>\n<p>自带的$\\LaTeX$真香</p>\n",
+            "tags": [
+                "博客管理",
+                "New",
+                "随笔"
+            ]
+        }
+    ]
+}

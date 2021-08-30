@@ -1,0 +1,37 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "AFGXF's Blog • All posts by \"bash\" tag",
+    "description": "",
+    "home_page_url": "https://afgxf.github.io",
+    "items": [
+        {
+            "id": "https://afgxf.github.io/2020/04/28/shell-shu-ju-dui-pai/",
+            "url": "https://afgxf.github.io/2020/04/28/shell-shu-ju-dui-pai/",
+            "title": "Shell数据对拍",
+            "date_published": "2020-04-28T05:41:31.000Z",
+            "content_html": "<p>最近转Linux,学了一点shell script,发现对拍程序可以这样写:</p>\n<span id=\"more\"></span>\n<figure class=\"highlight shell\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br><span class=\"line\">8</span><br><span class=\"line\">9</span><br></pre></td><td class=\"code\"><pre><span class=\"line\"><span class=\"meta\">#</span><span class=\"bash\"> data.out数据生成器,true.out对拍,ans.out要测试的程序</span></span><br><span class=\"line\">data.out|true.out &gt; true.ans</span><br><span class=\"line\">data.out|ans.out &gt; ans.ans</span><br><span class=\"line\">diff ans.ans true.ans</span><br><span class=\"line\"><span class=\"meta\">#</span><span class=\"bash\"> -----</span></span><br><span class=\"line\"><span class=\"meta\">#</span><span class=\"bash\"> 如果没有数据生成器</span></span><br><span class=\"line\">cat data.txt|true.out &gt; true.ans</span><br><span class=\"line\">cat data.txt|ans.out &gt; ans.ans</span><br><span class=\"line\">diff ans.ans true.ans</span><br></pre></td></tr></table></figure>\n<p>然后就可以实现对拍数据了</p>\n<blockquote>\n<p>注:关于”<code>|</code>“管道操作符详见<a href=\"https://afgxf.github.io/2020/04/27/Bash-Pipes/\">这篇文章</a></p>\n</blockquote>\n<p>也可以写一个<code>test.sh</code></p>\n<figure class=\"highlight shell\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br><span class=\"line\">8</span><br></pre></td><td class=\"code\"><pre><span class=\"line\"><span class=\"meta\">$</span><span class=\"bash\">1|<span class=\"variable\">$2</span> &gt; true.ans</span></span><br><span class=\"line\"><span class=\"meta\">$</span><span class=\"bash\">1|<span class=\"variable\">$3</span> &gt; ans.ans</span></span><br><span class=\"line\">diff ans.ans true.ans</span><br><span class=\"line\"><span class=\"meta\">#</span><span class=\"bash\"> -----</span></span><br><span class=\"line\"><span class=\"meta\">#</span><span class=\"bash\"> 如果没有数据生成器</span></span><br><span class=\"line\">cat $1|$2 &gt; true.ans</span><br><span class=\"line\">cat $1|$3 &gt; ans.ans</span><br><span class=\"line\">diff ans.ans true.ans</span><br></pre></td></tr></table></figure>\n<p>然后可以通过<code>./test.sh &lt;数据/生成器&gt; &lt;对拍程序&gt; &lt;要测试的程序&gt;</code>愉快的对拍了QWQ</p>\n",
+            "tags": [
+                "笔记",
+                "Shell",
+                "bash",
+                "zsh",
+                "Linux",
+                "Pipeline"
+            ]
+        },
+        {
+            "id": "https://afgxf.github.io/2020/04/27/bash-pipes/",
+            "url": "https://afgxf.github.io/2020/04/27/bash-pipes/",
+            "title": "Bash Pipes",
+            "date_published": "2020-04-27T04:34:42.000Z",
+            "content_html": "<h1 id=\"它是什么\"><a href=\"#它是什么\" class=\"headerlink\" title=\"它是什么\"></a>它是什么</h1><p>先看一组样例:</p>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">cat index.js|node|<span class=\"built_in\">echo</span>&gt;&gt;out.txt <span class=\"comment\">#其实就是node ./index.js&gt;&gt;out.txt</span></span><br></pre></td></tr></table></figure>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">git <span class=\"built_in\">log</span>|<span class=\"built_in\">echo</span>&gt;&gt;history.log<span class=\"comment\">#保存log</span></span><br></pre></td></tr></table></figure>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">find ./ xxx|sort <span class=\"comment\">#排序输出</span></span><br></pre></td></tr></table></figure>\n<span id=\"more\"></span>\n<h1 id=\"它怎么用\"><a href=\"#它怎么用\" class=\"headerlink\" title=\"它怎么用\"></a>它怎么用</h1><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">command1|command2[|commandN...]</span><br></pre></td></tr></table></figure>\n<p>将command1的stdout定向到command2的stdin,再将command2的stdout定向到command3的stdin,……</p>\n<h1 id=\"其他\"><a href=\"#其他\" class=\"headerlink\" title=\"其他\"></a>其他</h1><p>没有。</p>\n<p>对。就是很没用。<del>goto一般的存在</del>有时还被斥责多余</p>\n",
+            "tags": [
+                "笔记",
+                "Shell",
+                "bash",
+                "zsh",
+                "Linux"
+            ]
+        }
+    ]
+}

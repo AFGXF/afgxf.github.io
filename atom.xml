@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://afgxf.github.io</id>
+    <title>AFGXF&#39;s Blog</title>
+    <link href="https://afgxf.github.io" />
+    <updated>2021-08-26T07:40:28.000Z</updated>
+    <category term="WHK" />
+    <category term="文化课" />
+    <category term="笔记" />
+    <category term="博客管理" />
+    <category term="Shell" />
+    <category term="bash" />
+    <category term="zsh" />
+    <category term="Linux" />
+    <category term="New" />
+    <category term="随笔" />
+    <category term="树莓派" />
+    <category term="题解" />
+    <category term="洛谷" />
+    <category term="NOIP普及/CSP-J" />
+    <category term="Pipeline" />
+    <entry>
+        <id>https://afgxf.github.io/2021/08/26/new-blog/</id>
+        <title>新的博客,新的开始</title>
+        <link rel="alternate" href="https://afgxf.github.io/2021/08/26/new-blog/"/>
+        <content type="html">&lt;p&gt;2021年8月29号,重建Hexo博客.&lt;/p&gt;
+&lt;p&gt;自带的$\LaTeX$真香&lt;/p&gt;
+</content>
+        <category term="博客管理" />
+        <category term="New" />
+        <category term="随笔" />
+        <updated>2021-08-26T07:40:28.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://afgxf.github.io/2021/03/31/2021327-di-li-bi-ji/</id>
+        <title>2021.3.27地理笔记</title>
+        <link rel="alternate" href="https://afgxf.github.io/2021/03/31/2021327-di-li-bi-ji/"/>
+        <content type="html">&lt;p&gt;&lt;em&gt;这是学校网课(免费试听)的笔记&lt;/em&gt;&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+
+&lt;h1 id=&#34;地球和地图&#34;&gt;&lt;a href=&#34;#地球和地图&#34; class=&#34;headerlink&#34; title=&#34;地球和地图&#34;&gt;&lt;/a&gt;地球和地图&lt;/h1&gt;&lt;h2 id=&#34;地球的公转&#34;&gt;&lt;a href=&#34;#地球的公转&#34; class=&#34;headerlink&#34; title=&#34;地球的公转&#34;&gt;&lt;/a&gt;地球的公转&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;节气&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;直射纬线&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;时间&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;昼夜长短&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;昼夜长短变化&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;春分&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;赤道&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3.21&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;昼夜平分&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;昼变长夜变短&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;夏至&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;北回归线&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;6.22&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;昼长夜短&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;昼变短夜变长&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;秋分&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;赤道&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;9.23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;昼夜平分&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;昼变短夜变长&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;冬至&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;南回归线&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;12.22&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;昼短夜长&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;昼变长夜变短&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;左昼长夜短 右昼短夜长&lt;/li&gt;
+&lt;li&gt;上昼变长夜变短 下昼变短夜变长&lt;/li&gt;
+&lt;li&gt;做题技巧:根据问题信息来分析&lt;/li&gt;
+&lt;li&gt;正午太阳影子:夏至最长 冬至最短 春分秋分中等&lt;/li&gt;
+&lt;li&gt;例题:&lt;ul&gt;
+&lt;li&gt;楼间距:冬至影子长度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;地图&#34;&gt;&lt;a href=&#34;#地图&#34; class=&#34;headerlink&#34; title=&#34;地图&#34;&gt;&lt;/a&gt;地图&lt;/h2&gt;&lt;h3 id=&#34;三要素&#34;&gt;&lt;a href=&#34;#三要素&#34; class=&#34;headerlink&#34; title=&#34;三要素&#34;&gt;&lt;/a&gt;三要素&lt;/h3&gt;&lt;p&gt;  比例尺 方向 图例&lt;/p&gt;
+&lt;h3 id=&#34;比例尺&#34;&gt;&lt;a href=&#34;#比例尺&#34; class=&#34;headerlink&#34; title=&#34;比例尺&#34;&gt;&lt;/a&gt;比例尺&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;公式: 图上距离/实际距离=比例尺&lt;/li&gt;
+&lt;li&gt;比例尺换算&lt;ul&gt;
+&lt;li&gt;1km=10^5cm (5个0)&lt;/li&gt;
+&lt;li&gt;数字/文字式转换&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;比例尺比较 分母大的小,分母小的大.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;同样的图幅&lt;/strong&gt; 比例尺越大,范围小,事物粗略;比例尺越大,范围小,事物粗略.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;同一地区&lt;/strong&gt; 图幅越大,比例尺越大.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;判断方向&#34;&gt;&lt;a href=&#34;#判断方向&#34; class=&#34;headerlink&#34; title=&#34;判断方向&#34;&gt;&lt;/a&gt;判断方向&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;一般地图:上北下南,左西右东&lt;/li&gt;
+&lt;li&gt;指向标地图:箭头一般指向北&lt;/li&gt;
+&lt;li&gt;经纬网地图:经线指示南北,纬线指示东西&lt;/li&gt;
+&lt;li&gt;带极点的地图:&lt;ol&gt;
+&lt;li&gt;根据自转方向(北逆南顺)判定南北极.&lt;/li&gt;
+&lt;li&gt;箭头方向标”东”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;等高线地形图&#34;&gt;&lt;a href=&#34;#等高线地形图&#34; class=&#34;headerlink&#34; title=&#34;等高线地形图&#34;&gt;&lt;/a&gt;等高线地形图&lt;/h2&gt;&lt;h3 id=&#34;海拔和相对海拔&#34;&gt;&lt;a href=&#34;#海拔和相对海拔&#34; class=&#34;headerlink&#34; title=&#34;海拔和相对海拔&#34;&gt;&lt;/a&gt;海拔和相对海拔&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;海拔 某点高出海平面的高度&lt;/li&gt;
+&lt;li&gt;相对高度 某点高出另一点的高度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;等高距&#34;&gt;&lt;a href=&#34;#等高距&#34; class=&#34;headerlink&#34; title=&#34;等高距&#34;&gt;&lt;/a&gt;等高距&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;等高距: 两条等高线数值的差.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;山体部位&#34;&gt;&lt;a href=&#34;#山体部位&#34; class=&#34;headerlink&#34; title=&#34;山体部位&#34;&gt;&lt;/a&gt;山体部位&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;山峰: 等高线成环形,中间高,四周低&lt;/li&gt;
+&lt;li&gt;山脊: 等高线向低处突出&lt;/li&gt;
+&lt;li&gt;山谷: 等高线向低处突出 孕育河流&lt;/li&gt;
+&lt;li&gt;鞍部: 山峰间较平坦的部位&lt;/li&gt;
+&lt;li&gt;陡崖: 等高线密集,成为一条线&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高谷低脊&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;考点&#34;&gt;&lt;a href=&#34;#考点&#34; class=&#34;headerlink&#34; title=&#34;考点&#34;&gt;&lt;/a&gt;考点&lt;/h3&gt;&lt;h4 id=&#34;计算题&#34;&gt;&lt;a href=&#34;#计算题&#34; class=&#34;headerlink&#34; title=&#34;计算题&#34;&gt;&lt;/a&gt;计算题&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;相对高度&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;两点A,B高度确定 -&amp;gt; 海拔差 A-B&lt;/li&gt;
+&lt;li&gt;一点A确定,另一点B不确定 -&amp;gt; B的区间-A的海拔&lt;/li&gt;
+&lt;li&gt;两点A,B不确定 -&amp;gt; A区间最大-B区间最小,A区间最小-B区间最大.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;温差/温度计算&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;先计算相对高度&lt;/li&gt;
+&lt;li&gt;海拔每升高100m,气温下降0.6摄氏度.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;等高线性质&#34;&gt;&lt;a href=&#34;#等高线性质&#34; class=&#34;headerlink&#34; title=&#34;等高线性质&#34;&gt;&lt;/a&gt;等高线性质&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;等高线密集,坡度陡;等高线稀疏,坡度陡.&lt;/li&gt;
+&lt;li&gt;河流流速/地形陡缓&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;运动题&#34;&gt;&lt;a href=&#34;#运动题&#34; class=&#34;headerlink&#34; title=&#34;运动题&#34;&gt;&lt;/a&gt;运动题&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;攀岩:陡崖&lt;/li&gt;
+&lt;li&gt;漂流/激流勇进:山谷&lt;/li&gt;
+&lt;li&gt;登山:山脊&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;开发&#34;&gt;&lt;a href=&#34;#开发&#34; class=&#34;headerlink&#34; title=&#34;开发&#34;&gt;&lt;/a&gt;开发&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;修路:&lt;ul&gt;
+&lt;li&gt;平行于等高线修路&lt;/li&gt;
+&lt;li&gt;否则山谷架桥,山脊开隧道.&lt;/li&gt;
+&lt;li&gt;架桥&lt;ul&gt;
+&lt;li&gt;平原架桥:&lt;ul&gt;
+&lt;li&gt;减少耕地占用&lt;/li&gt;
+&lt;li&gt;便利桥下交通&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;高原架桥:&lt;ul&gt;
+&lt;li&gt;保护生态环境&lt;/li&gt;
+&lt;li&gt;维护生物多样性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;山地架桥:&lt;ul&gt;
+&lt;li&gt;减少坡度&lt;/li&gt;
+&lt;li&gt;减少距离&lt;/li&gt;
+&lt;li&gt;安全&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;饮水工程:从高处向低处引水,形成自流&lt;/li&gt;
+&lt;li&gt;水库:&lt;ul&gt;
+&lt;li&gt;最佳:峡谷地带,上游盆地&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;农业题&#34;&gt;&lt;a href=&#34;#农业题&#34; class=&#34;headerlink&#34; title=&#34;农业题&#34;&gt;&lt;/a&gt;农业题&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;陡坡:生态林&lt;/li&gt;
+&lt;li&gt;缓坡:梯田/果树(经济林)/畜牧业&lt;/li&gt;
+&lt;li&gt;平原:种植业&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;自然环境与杂项&#34;&gt;&lt;a href=&#34;#自然环境与杂项&#34; class=&#34;headerlink&#34; title=&#34;自然环境与杂项&#34;&gt;&lt;/a&gt;自然环境与杂项&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;宿营&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;避开:山谷/陡崖&lt;/li&gt;
+&lt;li&gt;建议:鞍部&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;灾害:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;陡坡:滑坡&lt;/li&gt;
+&lt;li&gt;山谷:泥石流&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;环境保护&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;陡坡发展种植业:水土流失,影响下游&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;聚落形成:河流下游&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;地形比较&#34;&gt;&lt;a href=&#34;#地形比较&#34; class=&#34;headerlink&#34; title=&#34;地形比较&#34;&gt;&lt;/a&gt;地形比较&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;山地和丘陵:&lt;ul&gt;
+&lt;li&gt;山地&amp;gt;500m,丘陵&amp;lt;500m&lt;/li&gt;
+&lt;li&gt;山地起伏更大&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;高原:外围陡峭,中间平坦&lt;/li&gt;
+&lt;li&gt;盆地:四周高,中间低.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;2021/3/27 学校组织网课笔记&lt;/em&gt;&lt;/p&gt;
+</content>
+        <category term="WHK" />
+        <category term="文化课" />
+        <category term="笔记" />
+        <updated>2021-03-31T03:28:28.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://afgxf.github.io/2021/03/31/2021327-sheng-wu-bi-ji/</id>
+        <title>2021.3.27生物笔记</title>
+        <link rel="alternate" href="https://afgxf.github.io/2021/03/31/2021327-sheng-wu-bi-ji/"/>
+        <content type="html">&lt;p&gt;&lt;em&gt;这是学校网课(免费试听)的笔记&lt;/em&gt;&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+
+&lt;h1 id=&#34;遗传和变异&#34;&gt;&lt;a href=&#34;#遗传和变异&#34; class=&#34;headerlink&#34; title=&#34;遗传和变异&#34;&gt;&lt;/a&gt;遗传和变异&lt;/h1&gt;&lt;h2 id=&#34;遗传和变异-1&#34;&gt;&lt;a href=&#34;#遗传和变异-1&#34; class=&#34;headerlink&#34; title=&#34;遗传和变异&#34;&gt;&lt;/a&gt;遗传和变异&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;遗传 -&amp;gt; 亲子间的相似性&lt;/li&gt;
+&lt;li&gt;变异 -&amp;gt; 亲子间和子代个体间的差异&lt;br&gt;&lt;strong&gt;遗传和变异是普遍存在的.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;性状和相对性状&#34;&gt;&lt;a href=&#34;#性状和相对性状&#34; class=&#34;headerlink&#34; title=&#34;性状和相对性状&#34;&gt;&lt;/a&gt;性状和相对性状&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;性状 -&amp;gt; 生物体所表现 形态结构/生理特征/行为方式等&lt;/li&gt;
+&lt;li&gt;相对性状 -&amp;gt; 同种生物 同一性状 不同表现形式 &lt;strong&gt;不一定只有两种表现形式&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;判定相对性状:&lt;ol&gt;
+&lt;li&gt;同种生物.&lt;/li&gt;
+&lt;li&gt;同一性状.&lt;/li&gt;
+&lt;li&gt;不同(两种及以上)表现形式.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;缺一不可&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;基因&#34;&gt;&lt;a href=&#34;#基因&#34; class=&#34;headerlink&#34; title=&#34;基因&#34;&gt;&lt;/a&gt;基因&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;基因在亲子间传递的桥梁是 &lt;strong&gt;精子和卵细胞(生殖细胞)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;层次: &lt;strong&gt;(生殖)细胞 -&amp;gt; 细胞核 -&amp;gt; 染色体 -&amp;gt; DNA -&amp;gt; 基因 -&amp;gt; 性状&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1条染色体=1个DNA=多个基因&lt;/strong&gt;  46条染色体=46个DNA=无数基因.&lt;/li&gt;
+&lt;li&gt;性状相同,基因 &lt;strong&gt;不一定&lt;/strong&gt; 相同.&lt;/li&gt;
+&lt;li&gt;染色体=DNA+蛋白质.&lt;/li&gt;
+&lt;li&gt;子女的每一对染色体中必有一条来自父方,另一条来自母方.&lt;/li&gt;
+&lt;li&gt;生殖细胞的染色体只有体细胞中每一对染色体的一半.&lt;/li&gt;
+&lt;li&gt;判断体细胞与生殖细胞:&lt;ul&gt;
+&lt;li&gt;体细胞染色体成对 &lt;/li&gt;
+&lt;li&gt;生殖细胞染色体不成对.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;成对的基因位于成对的染色体上,且位置一一对应.&lt;/li&gt;
+&lt;li&gt;体细胞通常具有 &lt;strong&gt;23对(46条)&lt;/strong&gt; 染色体.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;成熟的红细胞和血小板&lt;/strong&gt; 无细胞核和染色体.&lt;/li&gt;
+&lt;li&gt;生殖细胞有 &lt;strong&gt;23条&lt;/strong&gt; 染色体.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;显性和隐性的判断&#34;&gt;&lt;a href=&#34;#显性和隐性的判断&#34; class=&#34;headerlink&#34; title=&#34;显性和隐性的判断&#34;&gt;&lt;/a&gt;显性和隐性的判断&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;一对相对性状杂交,后代 &lt;strong&gt;全&lt;/strong&gt; 表现的性状是显性&lt;/li&gt;
+&lt;li&gt;无中生有,有为隐性&lt;/li&gt;
+&lt;li&gt;判断依据: &lt;strong&gt;亲代是xxx,子代是xxx&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;性染色体&#34;&gt;&lt;a href=&#34;#性染色体&#34; class=&#34;headerlink&#34; title=&#34;性染色体&#34;&gt;&lt;/a&gt;性染色体&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;男性&lt;ul&gt;
+&lt;li&gt;体细胞中性染色体:XY&lt;/li&gt;
+&lt;li&gt;Y染色体一定来自父方,另一条染色体来自母方.&lt;/li&gt;
+&lt;li&gt;体细胞中染色体:44条(或22对)+XY&lt;/li&gt;
+&lt;li&gt;精子中染色体:22条+X或22条+Y&lt;/li&gt;
+&lt;li&gt;精子中性染色体:X或Y&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;女性&lt;ul&gt;
+&lt;li&gt;女性体细胞中性染色体:XX&lt;/li&gt;
+&lt;li&gt;X染色体可能来自父方或母方.&lt;/li&gt;
+&lt;li&gt;体细胞中染色体:44条(或22对)+XX&lt;/li&gt;
+&lt;li&gt;卵细胞中染色体:22条+X&lt;/li&gt;
+&lt;li&gt;卵细胞中性染色体:X&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;体细胞中与性别有关的染色体:一对&lt;/li&gt;
+&lt;li&gt;生殖细胞中与性别有关的染色体:一条&lt;/li&gt;
+&lt;li&gt;胎儿性别决定于:受精卵形成时&lt;/li&gt;
+&lt;li&gt;生男生女取决于:哪种精子与卵细胞结合&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="WHK" />
+        <category term="文化课" />
+        <category term="笔记" />
+        <updated>2021-03-31T03:27:04.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://afgxf.github.io/2020/12/27/gu-gu-gu-de-raspberrypiyi-ru-men/</id>
+        <title>咕咕咕的RaspberryPI(一):入门</title>
+        <link rel="alternate" href="https://afgxf.github.io/2020/12/27/gu-gu-gu-de-raspberrypiyi-ru-men/"/>
+        <content type="html">&lt;h1 id=&#34;声明&#34;&gt;&lt;a href=&#34;#声明&#34; class=&#34;headerlink&#34; title=&#34;声明&#34;&gt;&lt;/a&gt;声明&lt;/h1&gt;&lt;p&gt;非常的对不起大家，最近咕得有点厉害，由于 &lt;strong&gt;CSP-J 100pts 历史重演&lt;/strong&gt; 以及一些其他的考试/比赛/咕咕咕/买树莓派之类的行为，一直没照看Blog，非常抱歉!&lt;/p&gt;
+&lt;p&gt;删除了一些SpaceVim的文章.对于这些文章,我认为SpaceVim把Vim&amp;amp;Nvim变成了近似IDE/VSCode的存在.这是 &lt;strong&gt;违背Vim/NeoVim设计初衷&lt;/strong&gt; 的.&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+
+&lt;h1 id=&#34;正文&#34;&gt;&lt;a href=&#34;#正文&#34; class=&#34;headerlink&#34; title=&#34;正文&#34;&gt;&lt;/a&gt;正文&lt;/h1&gt;&lt;h2 id=&#34;树莓派是什么？能吃吗？&#34;&gt;&lt;a href=&#34;#树莓派是什么？能吃吗？&#34; class=&#34;headerlink&#34; title=&#34;树莓派是什么？能吃吗？&#34;&gt;&lt;/a&gt;树莓派是什么？能吃吗？&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;不能吃！！！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;通俗来讲，树莓派是基于ARM的微型电脑，由英国的树莓派基金会开发。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.raspberrypi.org/&#34;&gt;官方网站&lt;/a&gt; &lt;a href=&#34;https://shumeipai.nxez.com/&#34;&gt;树莓派实验室&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[&lt;img src=&#34;https://shumeipai.nxez.com/wp-content/uploads/2017/03/raspberrypi-version-compare-4b.png&#34; alt=&#34;选型指南,来自[树莓派实验室](https://shumeipai.nxez.com/)&#34;&gt;](&lt;a href=&#34;https://shumeipai.nxez.com/wp-content/uploads/2017/03/raspberrypi-version-compare-4b.png&#34;&gt;https://shumeipai.nxez.com/wp-content/uploads/2017/03/raspberrypi-version-compare-4b.png&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;[&lt;img src=&#34;https://shumeipai.nxez.com/wp-content/uploads/2019/06/20190630222025426.jpg&#34; alt=&#34;外观,来自[树莓派实验室](https://shumeipai.nxez.com/)&#34;&gt;](&lt;a href=&#34;https://shumeipai.nxez.com/wp-content/uploads/2019/06/20190630222025426.jpg&#34;&gt;https://shumeipai.nxez.com/wp-content/uploads/2019/06/20190630222025426.jpg&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;选型指南&#34;&gt;&lt;a href=&#34;#选型指南&#34; class=&#34;headerlink&#34; title=&#34;选型指南&#34;&gt;&lt;/a&gt;选型指南&lt;/h2&gt;&lt;p&gt;树莓派型号有很多（如上图），型号的选择是个问题。&lt;/p&gt;
+&lt;p&gt;下面以&lt;a href=&#34;https://www.dfrobot.com.cn/category-317-0-0-0-0-1-goods_id-DESC-1.html&#34;&gt;DFRobot商城&lt;/a&gt;为准.&lt;/p&gt;
+&lt;h3 id=&#34;按特性&#34;&gt;&lt;a href=&#34;#按特性&#34; class=&#34;headerlink&#34; title=&#34;按特性&#34;&gt;&lt;/a&gt;按特性&lt;/h3&gt;&lt;p&gt;先讨论一下几个型号的特性。&lt;/p&gt;
+&lt;h4 id=&#34;64Bit-aarch64-amp-aarch32&#34;&gt;&lt;a href=&#34;#64Bit-aarch64-amp-aarch32&#34; class=&#34;headerlink&#34; title=&#34;64Bit (aarch64 &amp;amp; aarch32)&#34;&gt;&lt;/a&gt;&lt;strong&gt;64Bit&lt;/strong&gt; (aarch64 &amp;amp; aarch32)&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Computation Module 4 (CM4)&lt;/strong&gt;(预售) &lt;strong&gt;注意:CM4这款型号主打工业化,不建议个人使用.&lt;/strong&gt; 工业化明显.不推荐.CM3/CM1同上.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;树莓派400&lt;/strong&gt;(预售) 键盘与树莓派合一.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;树莓派4B&lt;/strong&gt; 最新架构,RAM高(1/2/4/8GB可选),强大的GPU&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;树莓派3B+&lt;/strong&gt; 性能中肯,较稳定.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;树莓派3A+&lt;/strong&gt; 尺寸小,与3B+拥有同样强大的性能.&lt;h4 id=&#34;32Bit&#34;&gt;&lt;a href=&#34;#32Bit&#34; class=&#34;headerlink&#34; title=&#34;32Bit&#34;&gt;&lt;/a&gt;&lt;strong&gt;32Bit&lt;/strong&gt;&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;树莓派 Zero/Zero W&lt;/strong&gt; 这一代阉割了Ethernet,Zero W取而代之的是新型天线.Zero不可联网.性能稍弱.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;按用途&#34;&gt;&lt;a href=&#34;#按用途&#34; class=&#34;headerlink&#34; title=&#34;按用途&#34;&gt;&lt;/a&gt;按用途&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;个人服务器: 4B(1/2GB),3B+.&lt;/li&gt;
+&lt;li&gt;性能需求强: 4B(4/8GB),CM系列.&lt;/li&gt;
+&lt;li&gt;普通开发: 3A+/3B+/4B(1/2GB).&lt;/li&gt;
+&lt;li&gt;体积: 3A+/Zero W.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;为什么没有Zero?&lt;/p&gt;
+&lt;p&gt;因为它不能联网!&lt;/p&gt;
+&lt;h3 id=&#34;下期预告&#34;&gt;&lt;a href=&#34;#下期预告&#34; class=&#34;headerlink&#34; title=&#34;下期预告&#34;&gt;&lt;/a&gt;下期预告&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;玩转树莓派4B!&lt;/p&gt;
+&lt;p&gt;Coming Soon…&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+        <category term="Linux" />
+        <category term="随笔" />
+        <category term="树莓派" />
+        <updated>2020-12-27T12:21:14.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://afgxf.github.io/2020/04/28/shell-shu-ju-dui-pai/</id>
+        <title>Shell数据对拍</title>
+        <link rel="alternate" href="https://afgxf.github.io/2020/04/28/shell-shu-ju-dui-pai/"/>
+        <content type="html">&lt;p&gt;最近转Linux,学了一点shell script,发现对拍程序可以这样写:&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;bash&#34;&gt; data.out数据生成器,true.out对拍,ans.out要测试的程序&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;data.out|true.out &amp;gt; true.ans&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;data.out|ans.out &amp;gt; ans.ans&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;diff ans.ans true.ans&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;bash&#34;&gt; -----&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;bash&#34;&gt; 如果没有数据生成器&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cat data.txt|true.out &amp;gt; true.ans&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cat data.txt|ans.out &amp;gt; ans.ans&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;diff ans.ans true.ans&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;然后就可以实现对拍数据了&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注:关于”&lt;code&gt;|&lt;/code&gt;“管道操作符详见&lt;a href=&#34;https://afgxf.github.io/2020/04/27/Bash-Pipes/&#34;&gt;这篇文章&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;也可以写一个&lt;code&gt;test.sh&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;bash&#34;&gt;1|&lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; &amp;gt; true.ans&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;bash&#34;&gt;1|&lt;span class=&#34;variable&#34;&gt;$3&lt;/span&gt; &amp;gt; ans.ans&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;diff ans.ans true.ans&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;bash&#34;&gt; -----&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;bash&#34;&gt; 如果没有数据生成器&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cat $1|$2 &amp;gt; true.ans&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cat $1|$3 &amp;gt; ans.ans&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;diff ans.ans true.ans&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;然后可以通过&lt;code&gt;./test.sh &amp;lt;数据/生成器&amp;gt; &amp;lt;对拍程序&amp;gt; &amp;lt;要测试的程序&amp;gt;&lt;/code&gt;愉快的对拍了QWQ&lt;/p&gt;
+</content>
+        <category term="笔记" />
+        <category term="Shell" />
+        <category term="bash" />
+        <category term="zsh" />
+        <category term="Linux" />
+        <category term="Pipeline" />
+        <updated>2020-04-28T05:41:31.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://afgxf.github.io/2020/04/28/p5661-gong-jiao-huan-cheng-ti-jie/</id>
+        <title>P5661 公交换乘 题解</title>
+        <link rel="alternate" href="https://afgxf.github.io/2020/04/28/p5661-gong-jiao-huan-cheng-ti-jie/"/>
+        <content type="html">&lt;p&gt;那这就很厉害了&lt;br&gt;&lt;a href=&#34;https://www.luogu.com.cn/record/33168573&#34;&gt;R33168573 记录详情&lt;/a&gt;&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+&lt;h2 id=&#34;思路&#34;&gt;&lt;a href=&#34;#思路&#34; class=&#34;headerlink&#34; title=&#34;思路&#34;&gt;&lt;/a&gt;思路&lt;/h2&gt;&lt;p&gt;维护一个100005大小的栈&lt;code&gt;S&lt;/code&gt;,结构&lt;code&gt;transfer&amp;#123;p,t,used&amp;#125;&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;输入&lt;code&gt;n&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;循环如下&lt;ul&gt;
+&lt;li&gt;输入&lt;code&gt;type,price,time&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;如果是地铁&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ans+=price;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Push(S,&amp;#123;price,time&amp;#125;);&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;如果是公交&lt;ul&gt;
+&lt;li&gt;指针&lt;code&gt;tick=NULL&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;从&lt;code&gt;max(0,S.top-45)&lt;/code&gt;循环到&lt;code&gt;S.top&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;如果&lt;code&gt;OK(S[i])&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;tick=&amp;amp;S[i];&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;S[i].used=true&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;break;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;如果&lt;code&gt;tick==NULL&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ans+=price;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;输出&lt;code&gt;ans;&lt;/code&gt;&lt;blockquote&gt;
+&lt;p&gt;talk is cheap and show me the code.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;Code&#34;&gt;&lt;a href=&#34;#Code&#34; class=&#34;headerlink&#34; title=&#34;Code&#34;&gt;&lt;/a&gt;Code&lt;/h2&gt;&lt;figure class=&#34;highlight c++&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;52&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;53&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;54&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;55&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;56&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;meta-keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;meta-string&#34;&gt;&amp;lt;bits/stdc++.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;namespace&lt;/span&gt; std;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;class&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;struct&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;transfer&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; p, t;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;keyword&#34;&gt;bool&lt;/span&gt; used;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;transfer S[&lt;span class=&#34;number&#34;&gt;100005&lt;/span&gt;] = &amp;#123;&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;&amp;#125;;&lt;span class=&#34;comment&#34;&gt;//栈,只压不弹&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; top = &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;const&lt;/span&gt; transfer null = &amp;#123;&lt;span class=&#34;number&#34;&gt;-1&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;-1&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;&amp;#125;;&lt;span class=&#34;comment&#34;&gt;//这样比较方便判定&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;Push&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(transfer S[], transfer t)&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  S[top] = t;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  top++;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//条件判断&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;bool&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;OK&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(&lt;span class=&#34;keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; &amp;amp;n, &lt;span class=&#34;keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; &amp;amp;p, &lt;span class=&#34;keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; &amp;amp;t)&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (S[n].used || S[n].p &amp;lt; p || t - S[n].t &amp;gt; &lt;span class=&#34;number&#34;&gt;45&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;literal&#34;&gt;false&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;literal&#34;&gt;true&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//只能单独写一个了&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;select&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (top - &lt;span class=&#34;number&#34;&gt;45&lt;/span&gt; &amp;lt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125; &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; top - &lt;span class=&#34;number&#34;&gt;45&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; n;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; ans = &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  cin &amp;gt;&amp;gt; n;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; i = &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;; i &amp;lt; n; i++) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; type, p, t;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    cin &amp;gt;&amp;gt; type &amp;gt;&amp;gt; p &amp;gt;&amp;gt; t;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (type == &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;keyword&#34;&gt;const&lt;/span&gt; transfer *trans = &amp;amp;null;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;long&lt;/span&gt; j = &lt;span class=&#34;built_in&#34;&gt;select&lt;/span&gt;(); j &amp;lt; top; j++) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (&lt;span class=&#34;built_in&#34;&gt;OK&lt;/span&gt;(j, p, t)) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          trans = &amp;amp;S[j];&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          S[j].used = &lt;span class=&#34;literal&#34;&gt;true&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &lt;span class=&#34;keyword&#34;&gt;break&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (trans == &amp;amp;null) &amp;#123;&lt;span class=&#34;comment&#34;&gt;//如果未找到符合条件的票&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        ans += p;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125; &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      transfer tmp = &amp;#123;p, t, &lt;span class=&#34;literal&#34;&gt;false&lt;/span&gt;&amp;#125;;&lt;span class=&#34;comment&#34;&gt;//这里可以删掉&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;built_in&#34;&gt;Push&lt;/span&gt;(S, tmp);                &lt;span class=&#34;comment&#34;&gt;//然后这里Push(S,(transfer)&amp;#123;p,t,false&amp;#125;);&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      ans += p;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  cout &amp;lt;&amp;lt; ans;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;后记&#34;&gt;&lt;a href=&#34;#后记&#34; class=&#34;headerlink&#34; title=&#34;后记&#34;&gt;&lt;/a&gt;后记&lt;/h2&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;关于这个算法的复杂度,我想说:$O(45n)$.&lt;/p&gt;
+&lt;p&gt;说多了都是泪啊.&lt;/p&gt;
+&lt;p&gt;具体可以看&lt;a href=&#34;https://www.luogu.com.cn/discuss/show/212582&#34;&gt;这个&lt;/a&gt;和&lt;a href=&#34;https://www.luogu.com.cn/discuss/show/213648&#34;&gt;这个&lt;/a&gt;&lt;/p&gt;
+</content>
+        <category term="笔记" />
+        <category term="题解" />
+        <category term="洛谷" />
+        <category term="NOIP普及/CSP-J" />
+        <updated>2020-04-28T00:32:46.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://afgxf.github.io/2020/04/27/bash-pipes/</id>
+        <title>Bash Pipes</title>
+        <link rel="alternate" href="https://afgxf.github.io/2020/04/27/bash-pipes/"/>
+        <content type="html">&lt;h1 id=&#34;它是什么&#34;&gt;&lt;a href=&#34;#它是什么&#34; class=&#34;headerlink&#34; title=&#34;它是什么&#34;&gt;&lt;/a&gt;它是什么&lt;/h1&gt;&lt;p&gt;先看一组样例:&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cat index.js|node|&lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt;&amp;gt;&amp;gt;out.txt &lt;span class=&#34;comment&#34;&gt;#其实就是node ./index.js&amp;gt;&amp;gt;out.txt&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git &lt;span class=&#34;built_in&#34;&gt;log&lt;/span&gt;|&lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt;&amp;gt;&amp;gt;history.log&lt;span class=&#34;comment&#34;&gt;#保存log&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;find ./ xxx|sort &lt;span class=&#34;comment&#34;&gt;#排序输出&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+&lt;h1 id=&#34;它怎么用&#34;&gt;&lt;a href=&#34;#它怎么用&#34; class=&#34;headerlink&#34; title=&#34;它怎么用&#34;&gt;&lt;/a&gt;它怎么用&lt;/h1&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;command1|command2[|commandN...]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;将command1的stdout定向到command2的stdin,再将command2的stdout定向到command3的stdin,……&lt;/p&gt;
+&lt;h1 id=&#34;其他&#34;&gt;&lt;a href=&#34;#其他&#34; class=&#34;headerlink&#34; title=&#34;其他&#34;&gt;&lt;/a&gt;其他&lt;/h1&gt;&lt;p&gt;没有。&lt;/p&gt;
+&lt;p&gt;对。就是很没用。&lt;del&gt;goto一般的存在&lt;/del&gt;有时还被斥责多余&lt;/p&gt;
+</content>
+        <category term="笔记" />
+        <category term="Shell" />
+        <category term="bash" />
+        <category term="zsh" />
+        <category term="Linux" />
+        <updated>2020-04-27T04:34:42.000Z</updated>
+    </entry>
+</feed>

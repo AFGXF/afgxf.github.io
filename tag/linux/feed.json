@@ -1,0 +1,49 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "AFGXF's Blog • All posts by \"linux\" tag",
+    "description": "",
+    "home_page_url": "https://afgxf.github.io",
+    "items": [
+        {
+            "id": "https://afgxf.github.io/2020/12/27/gu-gu-gu-de-raspberrypiyi-ru-men/",
+            "url": "https://afgxf.github.io/2020/12/27/gu-gu-gu-de-raspberrypiyi-ru-men/",
+            "title": "咕咕咕的RaspberryPI(一):入门",
+            "date_published": "2020-12-27T12:21:14.000Z",
+            "content_html": "<h1 id=\"声明\"><a href=\"#声明\" class=\"headerlink\" title=\"声明\"></a>声明</h1><p>非常的对不起大家，最近咕得有点厉害，由于 <strong>CSP-J 100pts 历史重演</strong> 以及一些其他的考试/比赛/咕咕咕/买树莓派之类的行为，一直没照看Blog，非常抱歉!</p>\n<p>删除了一些SpaceVim的文章.对于这些文章,我认为SpaceVim把Vim&amp;Nvim变成了近似IDE/VSCode的存在.这是 <strong>违背Vim/NeoVim设计初衷</strong> 的.</p>\n<span id=\"more\"></span>\n\n<h1 id=\"正文\"><a href=\"#正文\" class=\"headerlink\" title=\"正文\"></a>正文</h1><h2 id=\"树莓派是什么？能吃吗？\"><a href=\"#树莓派是什么？能吃吗？\" class=\"headerlink\" title=\"树莓派是什么？能吃吗？\"></a>树莓派是什么？能吃吗？</h2><p><strong>不能吃！！！</strong></p>\n<p>通俗来讲，树莓派是基于ARM的微型电脑，由英国的树莓派基金会开发。</p>\n<p><a href=\"https://www.raspberrypi.org/\">官方网站</a> <a href=\"https://shumeipai.nxez.com/\">树莓派实验室</a></p>\n<p>[<img src=\"https://shumeipai.nxez.com/wp-content/uploads/2017/03/raspberrypi-version-compare-4b.png\" alt=\"选型指南,来自[树莓派实验室](https://shumeipai.nxez.com/)\">](<a href=\"https://shumeipai.nxez.com/wp-content/uploads/2017/03/raspberrypi-version-compare-4b.png\">https://shumeipai.nxez.com/wp-content/uploads/2017/03/raspberrypi-version-compare-4b.png</a>)</p>\n<p>[<img src=\"https://shumeipai.nxez.com/wp-content/uploads/2019/06/20190630222025426.jpg\" alt=\"外观,来自[树莓派实验室](https://shumeipai.nxez.com/)\">](<a href=\"https://shumeipai.nxez.com/wp-content/uploads/2019/06/20190630222025426.jpg\">https://shumeipai.nxez.com/wp-content/uploads/2019/06/20190630222025426.jpg</a>)</p>\n<h2 id=\"选型指南\"><a href=\"#选型指南\" class=\"headerlink\" title=\"选型指南\"></a>选型指南</h2><p>树莓派型号有很多（如上图），型号的选择是个问题。</p>\n<p>下面以<a href=\"https://www.dfrobot.com.cn/category-317-0-0-0-0-1-goods_id-DESC-1.html\">DFRobot商城</a>为准.</p>\n<h3 id=\"按特性\"><a href=\"#按特性\" class=\"headerlink\" title=\"按特性\"></a>按特性</h3><p>先讨论一下几个型号的特性。</p>\n<h4 id=\"64Bit-aarch64-amp-aarch32\"><a href=\"#64Bit-aarch64-amp-aarch32\" class=\"headerlink\" title=\"64Bit (aarch64 &amp; aarch32)\"></a><strong>64Bit</strong> (aarch64 &amp; aarch32)</h4><ul>\n<li><strong>Computation Module 4 (CM4)</strong>(预售) <strong>注意:CM4这款型号主打工业化,不建议个人使用.</strong> 工业化明显.不推荐.CM3/CM1同上.</li>\n<li><strong>树莓派400</strong>(预售) 键盘与树莓派合一.</li>\n<li><strong>树莓派4B</strong> 最新架构,RAM高(1/2/4/8GB可选),强大的GPU</li>\n<li><strong>树莓派3B+</strong> 性能中肯,较稳定.</li>\n<li><strong>树莓派3A+</strong> 尺寸小,与3B+拥有同样强大的性能.<h4 id=\"32Bit\"><a href=\"#32Bit\" class=\"headerlink\" title=\"32Bit\"></a><strong>32Bit</strong></h4></li>\n<li><strong>树莓派 Zero/Zero W</strong> 这一代阉割了Ethernet,Zero W取而代之的是新型天线.Zero不可联网.性能稍弱.</li>\n</ul>\n<h3 id=\"按用途\"><a href=\"#按用途\" class=\"headerlink\" title=\"按用途\"></a>按用途</h3><ul>\n<li>个人服务器: 4B(1/2GB),3B+.</li>\n<li>性能需求强: 4B(4/8GB),CM系列.</li>\n<li>普通开发: 3A+/3B+/4B(1/2GB).</li>\n<li>体积: 3A+/Zero W.</li>\n</ul>\n<p>为什么没有Zero?</p>\n<p>因为它不能联网!</p>\n<h3 id=\"下期预告\"><a href=\"#下期预告\" class=\"headerlink\" title=\"下期预告\"></a>下期预告</h3><blockquote>\n<p>玩转树莓派4B!</p>\n<p>Coming Soon…</p>\n</blockquote>\n",
+            "tags": [
+                "Linux",
+                "随笔",
+                "树莓派"
+            ]
+        },
+        {
+            "id": "https://afgxf.github.io/2020/04/28/shell-shu-ju-dui-pai/",
+            "url": "https://afgxf.github.io/2020/04/28/shell-shu-ju-dui-pai/",
+            "title": "Shell数据对拍",
+            "date_published": "2020-04-28T05:41:31.000Z",
+            "content_html": "<p>最近转Linux,学了一点shell script,发现对拍程序可以这样写:</p>\n<span id=\"more\"></span>\n<figure class=\"highlight shell\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br><span class=\"line\">8</span><br><span class=\"line\">9</span><br></pre></td><td class=\"code\"><pre><span class=\"line\"><span class=\"meta\">#</span><span class=\"bash\"> data.out数据生成器,true.out对拍,ans.out要测试的程序</span></span><br><span class=\"line\">data.out|true.out &gt; true.ans</span><br><span class=\"line\">data.out|ans.out &gt; ans.ans</span><br><span class=\"line\">diff ans.ans true.ans</span><br><span class=\"line\"><span class=\"meta\">#</span><span class=\"bash\"> -----</span></span><br><span class=\"line\"><span class=\"meta\">#</span><span class=\"bash\"> 如果没有数据生成器</span></span><br><span class=\"line\">cat data.txt|true.out &gt; true.ans</span><br><span class=\"line\">cat data.txt|ans.out &gt; ans.ans</span><br><span class=\"line\">diff ans.ans true.ans</span><br></pre></td></tr></table></figure>\n<p>然后就可以实现对拍数据了</p>\n<blockquote>\n<p>注:关于”<code>|</code>“管道操作符详见<a href=\"https://afgxf.github.io/2020/04/27/Bash-Pipes/\">这篇文章</a></p>\n</blockquote>\n<p>也可以写一个<code>test.sh</code></p>\n<figure class=\"highlight shell\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br><span class=\"line\">8</span><br></pre></td><td class=\"code\"><pre><span class=\"line\"><span class=\"meta\">$</span><span class=\"bash\">1|<span class=\"variable\">$2</span> &gt; true.ans</span></span><br><span class=\"line\"><span class=\"meta\">$</span><span class=\"bash\">1|<span class=\"variable\">$3</span> &gt; ans.ans</span></span><br><span class=\"line\">diff ans.ans true.ans</span><br><span class=\"line\"><span class=\"meta\">#</span><span class=\"bash\"> -----</span></span><br><span class=\"line\"><span class=\"meta\">#</span><span class=\"bash\"> 如果没有数据生成器</span></span><br><span class=\"line\">cat $1|$2 &gt; true.ans</span><br><span class=\"line\">cat $1|$3 &gt; ans.ans</span><br><span class=\"line\">diff ans.ans true.ans</span><br></pre></td></tr></table></figure>\n<p>然后可以通过<code>./test.sh &lt;数据/生成器&gt; &lt;对拍程序&gt; &lt;要测试的程序&gt;</code>愉快的对拍了QWQ</p>\n",
+            "tags": [
+                "笔记",
+                "Shell",
+                "bash",
+                "zsh",
+                "Linux",
+                "Pipeline"
+            ]
+        },
+        {
+            "id": "https://afgxf.github.io/2020/04/27/bash-pipes/",
+            "url": "https://afgxf.github.io/2020/04/27/bash-pipes/",
+            "title": "Bash Pipes",
+            "date_published": "2020-04-27T04:34:42.000Z",
+            "content_html": "<h1 id=\"它是什么\"><a href=\"#它是什么\" class=\"headerlink\" title=\"它是什么\"></a>它是什么</h1><p>先看一组样例:</p>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">cat index.js|node|<span class=\"built_in\">echo</span>&gt;&gt;out.txt <span class=\"comment\">#其实就是node ./index.js&gt;&gt;out.txt</span></span><br></pre></td></tr></table></figure>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">git <span class=\"built_in\">log</span>|<span class=\"built_in\">echo</span>&gt;&gt;history.log<span class=\"comment\">#保存log</span></span><br></pre></td></tr></table></figure>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">find ./ xxx|sort <span class=\"comment\">#排序输出</span></span><br></pre></td></tr></table></figure>\n<span id=\"more\"></span>\n<h1 id=\"它怎么用\"><a href=\"#它怎么用\" class=\"headerlink\" title=\"它怎么用\"></a>它怎么用</h1><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">command1|command2[|commandN...]</span><br></pre></td></tr></table></figure>\n<p>将command1的stdout定向到command2的stdin,再将command2的stdout定向到command3的stdin,……</p>\n<h1 id=\"其他\"><a href=\"#其他\" class=\"headerlink\" title=\"其他\"></a>其他</h1><p>没有。</p>\n<p>对。就是很没用。<del>goto一般的存在</del>有时还被斥责多余</p>\n",
+            "tags": [
+                "笔记",
+                "Shell",
+                "bash",
+                "zsh",
+                "Linux"
+            ]
+        }
+    ]
+}

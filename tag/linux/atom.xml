@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://afgxf.github.io</id>
+    <title>AFGXF&#39;s Blog • Posts by &#34;linux&#34; tag</title>
+    <link href="https://afgxf.github.io" />
+    <updated>2020-12-27T12:21:14.000Z</updated>
+    <category term="WHK" />
+    <category term="文化课" />
+    <category term="笔记" />
+    <category term="博客管理" />
+    <category term="Shell" />
+    <category term="bash" />
+    <category term="zsh" />
+    <category term="Linux" />
+    <category term="New" />
+    <category term="随笔" />
+    <category term="树莓派" />
+    <category term="题解" />
+    <category term="洛谷" />
+    <category term="NOIP普及/CSP-J" />
+    <category term="Pipeline" />
+    <entry>
+        <id>https://afgxf.github.io/2020/12/27/gu-gu-gu-de-raspberrypiyi-ru-men/</id>
+        <title>咕咕咕的RaspberryPI(一):入门</title>
+        <link rel="alternate" href="https://afgxf.github.io/2020/12/27/gu-gu-gu-de-raspberrypiyi-ru-men/"/>
+        <content type="html">&lt;h1 id=&#34;声明&#34;&gt;&lt;a href=&#34;#声明&#34; class=&#34;headerlink&#34; title=&#34;声明&#34;&gt;&lt;/a&gt;声明&lt;/h1&gt;&lt;p&gt;非常的对不起大家，最近咕得有点厉害，由于 &lt;strong&gt;CSP-J 100pts 历史重演&lt;/strong&gt; 以及一些其他的考试/比赛/咕咕咕/买树莓派之类的行为，一直没照看Blog，非常抱歉!&lt;/p&gt;
+&lt;p&gt;删除了一些SpaceVim的文章.对于这些文章,我认为SpaceVim把Vim&amp;amp;Nvim变成了近似IDE/VSCode的存在.这是 &lt;strong&gt;违背Vim/NeoVim设计初衷&lt;/strong&gt; 的.&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+
+&lt;h1 id=&#34;正文&#34;&gt;&lt;a href=&#34;#正文&#34; class=&#34;headerlink&#34; title=&#34;正文&#34;&gt;&lt;/a&gt;正文&lt;/h1&gt;&lt;h2 id=&#34;树莓派是什么？能吃吗？&#34;&gt;&lt;a href=&#34;#树莓派是什么？能吃吗？&#34; class=&#34;headerlink&#34; title=&#34;树莓派是什么？能吃吗？&#34;&gt;&lt;/a&gt;树莓派是什么？能吃吗？&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;不能吃！！！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;通俗来讲，树莓派是基于ARM的微型电脑，由英国的树莓派基金会开发。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.raspberrypi.org/&#34;&gt;官方网站&lt;/a&gt; &lt;a href=&#34;https://shumeipai.nxez.com/&#34;&gt;树莓派实验室&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[&lt;img src=&#34;https://shumeipai.nxez.com/wp-content/uploads/2017/03/raspberrypi-version-compare-4b.png&#34; alt=&#34;选型指南,来自[树莓派实验室](https://shumeipai.nxez.com/)&#34;&gt;](&lt;a href=&#34;https://shumeipai.nxez.com/wp-content/uploads/2017/03/raspberrypi-version-compare-4b.png&#34;&gt;https://shumeipai.nxez.com/wp-content/uploads/2017/03/raspberrypi-version-compare-4b.png&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;[&lt;img src=&#34;https://shumeipai.nxez.com/wp-content/uploads/2019/06/20190630222025426.jpg&#34; alt=&#34;外观,来自[树莓派实验室](https://shumeipai.nxez.com/)&#34;&gt;](&lt;a href=&#34;https://shumeipai.nxez.com/wp-content/uploads/2019/06/20190630222025426.jpg&#34;&gt;https://shumeipai.nxez.com/wp-content/uploads/2019/06/20190630222025426.jpg&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;选型指南&#34;&gt;&lt;a href=&#34;#选型指南&#34; class=&#34;headerlink&#34; title=&#34;选型指南&#34;&gt;&lt;/a&gt;选型指南&lt;/h2&gt;&lt;p&gt;树莓派型号有很多（如上图），型号的选择是个问题。&lt;/p&gt;
+&lt;p&gt;下面以&lt;a href=&#34;https://www.dfrobot.com.cn/category-317-0-0-0-0-1-goods_id-DESC-1.html&#34;&gt;DFRobot商城&lt;/a&gt;为准.&lt;/p&gt;
+&lt;h3 id=&#34;按特性&#34;&gt;&lt;a href=&#34;#按特性&#34; class=&#34;headerlink&#34; title=&#34;按特性&#34;&gt;&lt;/a&gt;按特性&lt;/h3&gt;&lt;p&gt;先讨论一下几个型号的特性。&lt;/p&gt;
+&lt;h4 id=&#34;64Bit-aarch64-amp-aarch32&#34;&gt;&lt;a href=&#34;#64Bit-aarch64-amp-aarch32&#34; class=&#34;headerlink&#34; title=&#34;64Bit (aarch64 &amp;amp; aarch32)&#34;&gt;&lt;/a&gt;&lt;strong&gt;64Bit&lt;/strong&gt; (aarch64 &amp;amp; aarch32)&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Computation Module 4 (CM4)&lt;/strong&gt;(预售) &lt;strong&gt;注意:CM4这款型号主打工业化,不建议个人使用.&lt;/strong&gt; 工业化明显.不推荐.CM3/CM1同上.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;树莓派400&lt;/strong&gt;(预售) 键盘与树莓派合一.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;树莓派4B&lt;/strong&gt; 最新架构,RAM高(1/2/4/8GB可选),强大的GPU&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;树莓派3B+&lt;/strong&gt; 性能中肯,较稳定.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;树莓派3A+&lt;/strong&gt; 尺寸小,与3B+拥有同样强大的性能.&lt;h4 id=&#34;32Bit&#34;&gt;&lt;a href=&#34;#32Bit&#34; class=&#34;headerlink&#34; title=&#34;32Bit&#34;&gt;&lt;/a&gt;&lt;strong&gt;32Bit&lt;/strong&gt;&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;树莓派 Zero/Zero W&lt;/strong&gt; 这一代阉割了Ethernet,Zero W取而代之的是新型天线.Zero不可联网.性能稍弱.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;按用途&#34;&gt;&lt;a href=&#34;#按用途&#34; class=&#34;headerlink&#34; title=&#34;按用途&#34;&gt;&lt;/a&gt;按用途&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;个人服务器: 4B(1/2GB),3B+.&lt;/li&gt;
+&lt;li&gt;性能需求强: 4B(4/8GB),CM系列.&lt;/li&gt;
+&lt;li&gt;普通开发: 3A+/3B+/4B(1/2GB).&lt;/li&gt;
+&lt;li&gt;体积: 3A+/Zero W.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;为什么没有Zero?&lt;/p&gt;
+&lt;p&gt;因为它不能联网!&lt;/p&gt;
+&lt;h3 id=&#34;下期预告&#34;&gt;&lt;a href=&#34;#下期预告&#34; class=&#34;headerlink&#34; title=&#34;下期预告&#34;&gt;&lt;/a&gt;下期预告&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;玩转树莓派4B!&lt;/p&gt;
+&lt;p&gt;Coming Soon…&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+        <category term="Linux" />
+        <category term="随笔" />
+        <category term="树莓派" />
+        <updated>2020-12-27T12:21:14.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://afgxf.github.io/2020/04/28/shell-shu-ju-dui-pai/</id>
+        <title>Shell数据对拍</title>
+        <link rel="alternate" href="https://afgxf.github.io/2020/04/28/shell-shu-ju-dui-pai/"/>
+        <content type="html">&lt;p&gt;最近转Linux,学了一点shell script,发现对拍程序可以这样写:&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;bash&#34;&gt; data.out数据生成器,true.out对拍,ans.out要测试的程序&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;data.out|true.out &amp;gt; true.ans&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;data.out|ans.out &amp;gt; ans.ans&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;diff ans.ans true.ans&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;bash&#34;&gt; -----&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;bash&#34;&gt; 如果没有数据生成器&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cat data.txt|true.out &amp;gt; true.ans&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cat data.txt|ans.out &amp;gt; ans.ans&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;diff ans.ans true.ans&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;然后就可以实现对拍数据了&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注:关于”&lt;code&gt;|&lt;/code&gt;“管道操作符详见&lt;a href=&#34;https://afgxf.github.io/2020/04/27/Bash-Pipes/&#34;&gt;这篇文章&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;也可以写一个&lt;code&gt;test.sh&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;bash&#34;&gt;1|&lt;span class=&#34;variable&#34;&gt;$2&lt;/span&gt; &amp;gt; true.ans&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;bash&#34;&gt;1|&lt;span class=&#34;variable&#34;&gt;$3&lt;/span&gt; &amp;gt; ans.ans&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;diff ans.ans true.ans&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;bash&#34;&gt; -----&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;bash&#34;&gt; 如果没有数据生成器&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cat $1|$2 &amp;gt; true.ans&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cat $1|$3 &amp;gt; ans.ans&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;diff ans.ans true.ans&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;然后可以通过&lt;code&gt;./test.sh &amp;lt;数据/生成器&amp;gt; &amp;lt;对拍程序&amp;gt; &amp;lt;要测试的程序&amp;gt;&lt;/code&gt;愉快的对拍了QWQ&lt;/p&gt;
+</content>
+        <category term="笔记" />
+        <category term="Shell" />
+        <category term="bash" />
+        <category term="zsh" />
+        <category term="Linux" />
+        <category term="Pipeline" />
+        <updated>2020-04-28T05:41:31.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://afgxf.github.io/2020/04/27/bash-pipes/</id>
+        <title>Bash Pipes</title>
+        <link rel="alternate" href="https://afgxf.github.io/2020/04/27/bash-pipes/"/>
+        <content type="html">&lt;h1 id=&#34;它是什么&#34;&gt;&lt;a href=&#34;#它是什么&#34; class=&#34;headerlink&#34; title=&#34;它是什么&#34;&gt;&lt;/a&gt;它是什么&lt;/h1&gt;&lt;p&gt;先看一组样例:&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cat index.js|node|&lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt;&amp;gt;&amp;gt;out.txt &lt;span class=&#34;comment&#34;&gt;#其实就是node ./index.js&amp;gt;&amp;gt;out.txt&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git &lt;span class=&#34;built_in&#34;&gt;log&lt;/span&gt;|&lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt;&amp;gt;&amp;gt;history.log&lt;span class=&#34;comment&#34;&gt;#保存log&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;find ./ xxx|sort &lt;span class=&#34;comment&#34;&gt;#排序输出&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+&lt;h1 id=&#34;它怎么用&#34;&gt;&lt;a href=&#34;#它怎么用&#34; class=&#34;headerlink&#34; title=&#34;它怎么用&#34;&gt;&lt;/a&gt;它怎么用&lt;/h1&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;command1|command2[|commandN...]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;将command1的stdout定向到command2的stdin,再将command2的stdout定向到command3的stdin,……&lt;/p&gt;
+&lt;h1 id=&#34;其他&#34;&gt;&lt;a href=&#34;#其他&#34; class=&#34;headerlink&#34; title=&#34;其他&#34;&gt;&lt;/a&gt;其他&lt;/h1&gt;&lt;p&gt;没有。&lt;/p&gt;
+&lt;p&gt;对。就是很没用。&lt;del&gt;goto一般的存在&lt;/del&gt;有时还被斥责多余&lt;/p&gt;
+</content>
+        <category term="笔记" />
+        <category term="Shell" />
+        <category term="bash" />
+        <category term="zsh" />
+        <category term="Linux" />
+        <updated>2020-04-27T04:34:42.000Z</updated>
+    </entry>
+</feed>

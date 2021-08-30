@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>AFGXF&#39;s Blog • Posts by &#34;随笔&#34; tag</title>
+        <link>https://afgxf.github.io</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Thu, 26 Aug 2021 15:40:28 +0800</pubDate>
+        <lastBuildDate>Thu, 26 Aug 2021 15:40:28 +0800</lastBuildDate>
+        <category>WHK</category>
+        <category>文化课</category>
+        <category>笔记</category>
+        <category>博客管理</category>
+        <category>Shell</category>
+        <category>bash</category>
+        <category>zsh</category>
+        <category>Linux</category>
+        <category>New</category>
+        <category>随笔</category>
+        <category>树莓派</category>
+        <category>题解</category>
+        <category>洛谷</category>
+        <category>NOIP普及/CSP-J</category>
+        <category>Pipeline</category>
+        <item>
+            <guid isPermalink="true">https://afgxf.github.io/2021/08/26/new-blog/</guid>
+            <title>新的博客,新的开始</title>
+            <link>https://afgxf.github.io/2021/08/26/new-blog/</link>
+            <category>博客管理</category>
+            <category>New</category>
+            <category>随笔</category>
+            <pubDate>Thu, 26 Aug 2021 15:40:28 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;2021年8月29号,重建Hexo博客.&lt;/p&gt;
+&lt;p&gt;自带的$\LaTeX$真香&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://afgxf.github.io/2020/12/27/gu-gu-gu-de-raspberrypiyi-ru-men/</guid>
+            <title>咕咕咕的RaspberryPI(一):入门</title>
+            <link>https://afgxf.github.io/2020/12/27/gu-gu-gu-de-raspberrypiyi-ru-men/</link>
+            <category>Linux</category>
+            <category>随笔</category>
+            <category>树莓派</category>
+            <pubDate>Sun, 27 Dec 2020 20:21:14 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;声明&#34;&gt;&lt;a href=&#34;#声明&#34; class=&#34;headerlink&#34; title=&#34;声明&#34;&gt;&lt;/a&gt;声明&lt;/h1&gt;&lt;p&gt;非常的对不起大家，最近咕得有点厉害，由于 &lt;strong&gt;CSP-J 100pts 历史重演&lt;/strong&gt; 以及一些其他的考试/比赛/咕咕咕/买树莓派之类的行为，一直没照看Blog，非常抱歉!&lt;/p&gt;
+&lt;p&gt;删除了一些SpaceVim的文章.对于这些文章,我认为SpaceVim把Vim&amp;amp;Nvim变成了近似IDE/VSCode的存在.这是 &lt;strong&gt;违背Vim/NeoVim设计初衷&lt;/strong&gt; 的.&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+
+&lt;h1 id=&#34;正文&#34;&gt;&lt;a href=&#34;#正文&#34; class=&#34;headerlink&#34; title=&#34;正文&#34;&gt;&lt;/a&gt;正文&lt;/h1&gt;&lt;h2 id=&#34;树莓派是什么？能吃吗？&#34;&gt;&lt;a href=&#34;#树莓派是什么？能吃吗？&#34; class=&#34;headerlink&#34; title=&#34;树莓派是什么？能吃吗？&#34;&gt;&lt;/a&gt;树莓派是什么？能吃吗？&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;不能吃！！！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;通俗来讲，树莓派是基于ARM的微型电脑，由英国的树莓派基金会开发。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.raspberrypi.org/&#34;&gt;官方网站&lt;/a&gt; &lt;a href=&#34;https://shumeipai.nxez.com/&#34;&gt;树莓派实验室&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[&lt;img src=&#34;https://shumeipai.nxez.com/wp-content/uploads/2017/03/raspberrypi-version-compare-4b.png&#34; alt=&#34;选型指南,来自[树莓派实验室](https://shumeipai.nxez.com/)&#34;&gt;](&lt;a href=&#34;https://shumeipai.nxez.com/wp-content/uploads/2017/03/raspberrypi-version-compare-4b.png&#34;&gt;https://shumeipai.nxez.com/wp-content/uploads/2017/03/raspberrypi-version-compare-4b.png&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;[&lt;img src=&#34;https://shumeipai.nxez.com/wp-content/uploads/2019/06/20190630222025426.jpg&#34; alt=&#34;外观,来自[树莓派实验室](https://shumeipai.nxez.com/)&#34;&gt;](&lt;a href=&#34;https://shumeipai.nxez.com/wp-content/uploads/2019/06/20190630222025426.jpg&#34;&gt;https://shumeipai.nxez.com/wp-content/uploads/2019/06/20190630222025426.jpg&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;选型指南&#34;&gt;&lt;a href=&#34;#选型指南&#34; class=&#34;headerlink&#34; title=&#34;选型指南&#34;&gt;&lt;/a&gt;选型指南&lt;/h2&gt;&lt;p&gt;树莓派型号有很多（如上图），型号的选择是个问题。&lt;/p&gt;
+&lt;p&gt;下面以&lt;a href=&#34;https://www.dfrobot.com.cn/category-317-0-0-0-0-1-goods_id-DESC-1.html&#34;&gt;DFRobot商城&lt;/a&gt;为准.&lt;/p&gt;
+&lt;h3 id=&#34;按特性&#34;&gt;&lt;a href=&#34;#按特性&#34; class=&#34;headerlink&#34; title=&#34;按特性&#34;&gt;&lt;/a&gt;按特性&lt;/h3&gt;&lt;p&gt;先讨论一下几个型号的特性。&lt;/p&gt;
+&lt;h4 id=&#34;64Bit-aarch64-amp-aarch32&#34;&gt;&lt;a href=&#34;#64Bit-aarch64-amp-aarch32&#34; class=&#34;headerlink&#34; title=&#34;64Bit (aarch64 &amp;amp; aarch32)&#34;&gt;&lt;/a&gt;&lt;strong&gt;64Bit&lt;/strong&gt; (aarch64 &amp;amp; aarch32)&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Computation Module 4 (CM4)&lt;/strong&gt;(预售) &lt;strong&gt;注意:CM4这款型号主打工业化,不建议个人使用.&lt;/strong&gt; 工业化明显.不推荐.CM3/CM1同上.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;树莓派400&lt;/strong&gt;(预售) 键盘与树莓派合一.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;树莓派4B&lt;/strong&gt; 最新架构,RAM高(1/2/4/8GB可选),强大的GPU&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;树莓派3B+&lt;/strong&gt; 性能中肯,较稳定.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;树莓派3A+&lt;/strong&gt; 尺寸小,与3B+拥有同样强大的性能.&lt;h4 id=&#34;32Bit&#34;&gt;&lt;a href=&#34;#32Bit&#34; class=&#34;headerlink&#34; title=&#34;32Bit&#34;&gt;&lt;/a&gt;&lt;strong&gt;32Bit&lt;/strong&gt;&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;树莓派 Zero/Zero W&lt;/strong&gt; 这一代阉割了Ethernet,Zero W取而代之的是新型天线.Zero不可联网.性能稍弱.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;按用途&#34;&gt;&lt;a href=&#34;#按用途&#34; class=&#34;headerlink&#34; title=&#34;按用途&#34;&gt;&lt;/a&gt;按用途&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;个人服务器: 4B(1/2GB),3B+.&lt;/li&gt;
+&lt;li&gt;性能需求强: 4B(4/8GB),CM系列.&lt;/li&gt;
+&lt;li&gt;普通开发: 3A+/3B+/4B(1/2GB).&lt;/li&gt;
+&lt;li&gt;体积: 3A+/Zero W.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;为什么没有Zero?&lt;/p&gt;
+&lt;p&gt;因为它不能联网!&lt;/p&gt;
+&lt;h3 id=&#34;下期预告&#34;&gt;&lt;a href=&#34;#下期预告&#34; class=&#34;headerlink&#34; title=&#34;下期预告&#34;&gt;&lt;/a&gt;下期预告&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;玩转树莓派4B!&lt;/p&gt;
+&lt;p&gt;Coming Soon…&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

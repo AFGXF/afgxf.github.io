@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>AFGXF&#39;s Blog • Posts by &#34;new&#34; tag</title>
+        <link>https://afgxf.github.io</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Thu, 26 Aug 2021 15:40:28 +0800</pubDate>
+        <lastBuildDate>Thu, 26 Aug 2021 15:40:28 +0800</lastBuildDate>
+        <category>WHK</category>
+        <category>文化课</category>
+        <category>笔记</category>
+        <category>博客管理</category>
+        <category>Shell</category>
+        <category>bash</category>
+        <category>zsh</category>
+        <category>Linux</category>
+        <category>New</category>
+        <category>随笔</category>
+        <category>树莓派</category>
+        <category>题解</category>
+        <category>洛谷</category>
+        <category>NOIP普及/CSP-J</category>
+        <category>Pipeline</category>
+        <item>
+            <guid isPermalink="true">https://afgxf.github.io/2021/08/26/new-blog/</guid>
+            <title>新的博客,新的开始</title>
+            <link>https://afgxf.github.io/2021/08/26/new-blog/</link>
+            <category>博客管理</category>
+            <category>New</category>
+            <category>随笔</category>
+            <pubDate>Thu, 26 Aug 2021 15:40:28 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;2021年8月29号,重建Hexo博客.&lt;/p&gt;
+&lt;p&gt;自带的$\LaTeX$真香&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
