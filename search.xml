@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>新的博客,新的开始</title>
+      <link href="/2021/08/26/new-blog/"/>
+      <url>/2021/08/26/new-blog/</url>
+      
+        <content type="html"><![CDATA[<p>2021年8月29号,重建Hexo博客.</p><p>自带的$\LaTeX$真香</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 博客管理 </tag>
+            
+            <tag> New </tag>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2021.3.27地理笔记</title>
+      <link href="/2021/03/31/2021327-di-li-bi-ji/"/>
+      <url>/2021/03/31/2021327-di-li-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<p><em>这是学校网课(免费试听)的笔记</em></p><span id="more"></span><h1 id="地球和地图"><a href="#地球和地图" class="headerlink" title="地球和地图"></a>地球和地图</h1><h2 id="地球的公转"><a href="#地球的公转" class="headerlink" title="地球的公转"></a>地球的公转</h2><table><thead><tr><th align="center">节气</th><th align="center">直射纬线</th><th align="center">时间</th><th align="center">昼夜长短</th><th align="center">昼夜长短变化</th></tr></thead><tbody><tr><td align="center">春分</td><td align="center">赤道</td><td align="center">3.21</td><td align="center">昼夜平分</td><td align="center">昼变长夜变短</td></tr><tr><td align="center">夏至</td><td align="center">北回归线</td><td align="center">6.22</td><td align="center">昼长夜短</td><td align="center">昼变短夜变长</td></tr><tr><td align="center">秋分</td><td align="center">赤道</td><td align="center">9.23</td><td align="center">昼夜平分</td><td align="center">昼变短夜变长</td></tr><tr><td align="center">冬至</td><td align="center">南回归线</td><td align="center">12.22</td><td align="center">昼短夜长</td><td align="center">昼变长夜变短</td></tr></tbody></table><ul><li>左昼长夜短 右昼短夜长</li><li>上昼变长夜变短 下昼变短夜变长</li><li>做题技巧:根据问题信息来分析</li><li>正午太阳影子:夏至最长 冬至最短 春分秋分中等</li><li>例题:<ul><li>楼间距:冬至影子长度</li></ul></li></ul><h2 id="地图"><a href="#地图" class="headerlink" title="地图"></a>地图</h2><h3 id="三要素"><a href="#三要素" class="headerlink" title="三要素"></a>三要素</h3><p>  比例尺 方向 图例</p><h3 id="比例尺"><a href="#比例尺" class="headerlink" title="比例尺"></a>比例尺</h3><ul><li>公式: 图上距离/实际距离=比例尺</li><li>比例尺换算<ul><li>1km=10^5cm (5个0)</li><li>数字/文字式转换</li></ul></li><li>比例尺比较 分母大的小,分母小的大.</li><li><strong>同样的图幅</strong> 比例尺越大,范围小,事物粗略;比例尺越大,范围小,事物粗略.</li><li><strong>同一地区</strong> 图幅越大,比例尺越大.</li></ul><h3 id="判断方向"><a href="#判断方向" class="headerlink" title="判断方向"></a>判断方向</h3><ul><li>一般地图:上北下南,左西右东</li><li>指向标地图:箭头一般指向北</li><li>经纬网地图:经线指示南北,纬线指示东西</li><li>带极点的地图:<ol><li>根据自转方向(北逆南顺)判定南北极.</li><li>箭头方向标”东”</li></ol></li></ul><h2 id="等高线地形图"><a href="#等高线地形图" class="headerlink" title="等高线地形图"></a>等高线地形图</h2><h3 id="海拔和相对海拔"><a href="#海拔和相对海拔" class="headerlink" title="海拔和相对海拔"></a>海拔和相对海拔</h3><ul><li>海拔 某点高出海平面的高度</li><li>相对高度 某点高出另一点的高度</li></ul><h3 id="等高距"><a href="#等高距" class="headerlink" title="等高距"></a>等高距</h3><ul><li>等高距: 两条等高线数值的差.</li></ul><h3 id="山体部位"><a href="#山体部位" class="headerlink" title="山体部位"></a>山体部位</h3><ul><li>山峰: 等高线成环形,中间高,四周低</li><li>山脊: 等高线向低处突出</li><li>山谷: 等高线向低处突出 孕育河流</li><li>鞍部: 山峰间较平坦的部位</li><li>陡崖: 等高线密集,成为一条线</li><li><strong>高谷低脊</strong></li></ul><h3 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h3><h4 id="计算题"><a href="#计算题" class="headerlink" title="计算题"></a>计算题</h4><ol><li>相对高度</li></ol><ul><li>两点A,B高度确定 -&gt; 海拔差 A-B</li><li>一点A确定,另一点B不确定 -&gt; B的区间-A的海拔</li><li>两点A,B不确定 -&gt; A区间最大-B区间最小,A区间最小-B区间最大.</li></ul><ol start="2"><li>温差/温度计算</li></ol><ul><li>先计算相对高度</li><li>海拔每升高100m,气温下降0.6摄氏度.</li></ul><h4 id="等高线性质"><a href="#等高线性质" class="headerlink" title="等高线性质"></a>等高线性质</h4><ul><li>等高线密集,坡度陡;等高线稀疏,坡度陡.</li><li>河流流速/地形陡缓</li></ul><h4 id="运动题"><a href="#运动题" class="headerlink" title="运动题"></a>运动题</h4><ul><li>攀岩:陡崖</li><li>漂流/激流勇进:山谷</li><li>登山:山脊</li></ul><h4 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h4><ul><li>修路:<ul><li>平行于等高线修路</li><li>否则山谷架桥,山脊开隧道.</li><li>架桥<ul><li>平原架桥:<ul><li>减少耕地占用</li><li>便利桥下交通</li></ul></li><li>高原架桥:<ul><li>保护生态环境</li><li>维护生物多样性</li></ul></li><li>山地架桥:<ul><li>减少坡度</li><li>减少距离</li><li>安全</li></ul></li></ul></li></ul></li><li>饮水工程:从高处向低处引水,形成自流</li><li>水库:<ul><li>最佳:峡谷地带,上游盆地</li></ul></li></ul><h4 id="农业题"><a href="#农业题" class="headerlink" title="农业题"></a>农业题</h4><ul><li>陡坡:生态林</li><li>缓坡:梯田/果树(经济林)/畜牧业</li><li>平原:种植业</li></ul><h4 id="自然环境与杂项"><a href="#自然环境与杂项" class="headerlink" title="自然环境与杂项"></a>自然环境与杂项</h4><ul><li><p>宿营</p><ul><li>避开:山谷/陡崖</li><li>建议:鞍部</li></ul></li><li><p>灾害:</p><ul><li>陡坡:滑坡</li><li>山谷:泥石流</li></ul></li><li><p>环境保护</p><ul><li>陡坡发展种植业:水土流失,影响下游</li></ul></li><li><p>聚落形成:河流下游</p></li></ul><h3 id="地形比较"><a href="#地形比较" class="headerlink" title="地形比较"></a>地形比较</h3><ul><li>山地和丘陵:<ul><li>山地&gt;500m,丘陵&lt;500m</li><li>山地起伏更大</li></ul></li><li>高原:外围陡峭,中间平坦</li><li>盆地:四周高,中间低.</li></ul><hr><p><em>2021/3/27 学校组织网课笔记</em></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> WHK </tag>
+            
+            <tag> 文化课 </tag>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2021.3.27生物笔记</title>
+      <link href="/2021/03/31/2021327-sheng-wu-bi-ji/"/>
+      <url>/2021/03/31/2021327-sheng-wu-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<p><em>这是学校网课(免费试听)的笔记</em></p><span id="more"></span><h1 id="遗传和变异"><a href="#遗传和变异" class="headerlink" title="遗传和变异"></a>遗传和变异</h1><h2 id="遗传和变异-1"><a href="#遗传和变异-1" class="headerlink" title="遗传和变异"></a>遗传和变异</h2><ul><li>遗传 -&gt; 亲子间的相似性</li><li>变异 -&gt; 亲子间和子代个体间的差异<br><strong>遗传和变异是普遍存在的.</strong></li></ul><h2 id="性状和相对性状"><a href="#性状和相对性状" class="headerlink" title="性状和相对性状"></a>性状和相对性状</h2><ul><li>性状 -&gt; 生物体所表现 形态结构/生理特征/行为方式等</li><li>相对性状 -&gt; 同种生物 同一性状 不同表现形式 <strong>不一定只有两种表现形式</strong></li><li>判定相对性状:<ol><li>同种生物.</li><li>同一性状.</li><li>不同(两种及以上)表现形式.</li><li><strong>缺一不可</strong></li></ol></li></ul><h2 id="基因"><a href="#基因" class="headerlink" title="基因"></a>基因</h2><ul><li>基因在亲子间传递的桥梁是 <strong>精子和卵细胞(生殖细胞)</strong></li><li>层次: <strong>(生殖)细胞 -&gt; 细胞核 -&gt; 染色体 -&gt; DNA -&gt; 基因 -&gt; 性状</strong></li><li><strong>1条染色体=1个DNA=多个基因</strong>  46条染色体=46个DNA=无数基因.</li><li>性状相同,基因 <strong>不一定</strong> 相同.</li><li>染色体=DNA+蛋白质.</li><li>子女的每一对染色体中必有一条来自父方,另一条来自母方.</li><li>生殖细胞的染色体只有体细胞中每一对染色体的一半.</li><li>判断体细胞与生殖细胞:<ul><li>体细胞染色体成对 </li><li>生殖细胞染色体不成对.</li></ul></li><li>成对的基因位于成对的染色体上,且位置一一对应.</li><li>体细胞通常具有 <strong>23对(46条)</strong> 染色体.</li><li><strong>成熟的红细胞和血小板</strong> 无细胞核和染色体.</li><li>生殖细胞有 <strong>23条</strong> 染色体.</li></ul><h3 id="显性和隐性的判断"><a href="#显性和隐性的判断" class="headerlink" title="显性和隐性的判断"></a>显性和隐性的判断</h3><ul><li>一对相对性状杂交,后代 <strong>全</strong> 表现的性状是显性</li><li>无中生有,有为隐性</li><li>判断依据: <strong>亲代是xxx,子代是xxx</strong>.</li></ul><h3 id="性染色体"><a href="#性染色体" class="headerlink" title="性染色体"></a>性染色体</h3><ul><li>男性<ul><li>体细胞中性染色体:XY</li><li>Y染色体一定来自父方,另一条染色体来自母方.</li><li>体细胞中染色体:44条(或22对)+XY</li><li>精子中染色体:22条+X或22条+Y</li><li>精子中性染色体:X或Y</li></ul></li><li>女性<ul><li>女性体细胞中性染色体:XX</li><li>X染色体可能来自父方或母方.</li><li>体细胞中染色体:44条(或22对)+XX</li><li>卵细胞中染色体:22条+X</li><li>卵细胞中性染色体:X</li></ul></li></ul><ul><li>体细胞中与性别有关的染色体:一对</li><li>生殖细胞中与性别有关的染色体:一条</li><li>胎儿性别决定于:受精卵形成时</li><li>生男生女取决于:哪种精子与卵细胞结合</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> WHK </tag>
+            
+            <tag> 文化课 </tag>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>咕咕咕的RaspberryPI(一):入门</title>
+      <link href="/2020/12/27/gu-gu-gu-de-raspberrypiyi-ru-men/"/>
+      <url>/2020/12/27/gu-gu-gu-de-raspberrypiyi-ru-men/</url>
+      
+        <content type="html"><![CDATA[<h1 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h1><p>非常的对不起大家，最近咕得有点厉害，由于 <strong>CSP-J 100pts 历史重演</strong> 以及一些其他的考试/比赛/咕咕咕/买树莓派之类的行为，一直没照看Blog，非常抱歉!</p><p>删除了一些SpaceVim的文章.对于这些文章,我认为SpaceVim把Vim&amp;Nvim变成了近似IDE/VSCode的存在.这是 <strong>违背Vim/NeoVim设计初衷</strong> 的.</p><span id="more"></span><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="树莓派是什么？能吃吗？"><a href="#树莓派是什么？能吃吗？" class="headerlink" title="树莓派是什么？能吃吗？"></a>树莓派是什么？能吃吗？</h2><p><strong>不能吃！！！</strong></p><p>通俗来讲，树莓派是基于ARM的微型电脑，由英国的树莓派基金会开发。</p><p><a href="https://www.raspberrypi.org/">官方网站</a> <a href="https://shumeipai.nxez.com/">树莓派实验室</a></p><p>[<img src="https://shumeipai.nxez.com/wp-content/uploads/2017/03/raspberrypi-version-compare-4b.png" alt="选型指南,来自[树莓派实验室](https://shumeipai.nxez.com/)">](<a href="https://shumeipai.nxez.com/wp-content/uploads/2017/03/raspberrypi-version-compare-4b.png">https://shumeipai.nxez.com/wp-content/uploads/2017/03/raspberrypi-version-compare-4b.png</a>)</p><p>[<img src="https://shumeipai.nxez.com/wp-content/uploads/2019/06/20190630222025426.jpg" alt="外观,来自[树莓派实验室](https://shumeipai.nxez.com/)">](<a href="https://shumeipai.nxez.com/wp-content/uploads/2019/06/20190630222025426.jpg">https://shumeipai.nxez.com/wp-content/uploads/2019/06/20190630222025426.jpg</a>)</p><h2 id="选型指南"><a href="#选型指南" class="headerlink" title="选型指南"></a>选型指南</h2><p>树莓派型号有很多（如上图），型号的选择是个问题。</p><p>下面以<a href="https://www.dfrobot.com.cn/category-317-0-0-0-0-1-goods_id-DESC-1.html">DFRobot商城</a>为准.</p><h3 id="按特性"><a href="#按特性" class="headerlink" title="按特性"></a>按特性</h3><p>先讨论一下几个型号的特性。</p><h4 id="64Bit-aarch64-amp-aarch32"><a href="#64Bit-aarch64-amp-aarch32" class="headerlink" title="64Bit (aarch64 &amp; aarch32)"></a><strong>64Bit</strong> (aarch64 &amp; aarch32)</h4><ul><li><strong>Computation Module 4 (CM4)</strong>(预售) <strong>注意:CM4这款型号主打工业化,不建议个人使用.</strong> 工业化明显.不推荐.CM3/CM1同上.</li><li><strong>树莓派400</strong>(预售) 键盘与树莓派合一.</li><li><strong>树莓派4B</strong> 最新架构,RAM高(1/2/4/8GB可选),强大的GPU</li><li><strong>树莓派3B+</strong> 性能中肯,较稳定.</li><li><strong>树莓派3A+</strong> 尺寸小,与3B+拥有同样强大的性能.<h4 id="32Bit"><a href="#32Bit" class="headerlink" title="32Bit"></a><strong>32Bit</strong></h4></li><li><strong>树莓派 Zero/Zero W</strong> 这一代阉割了Ethernet,Zero W取而代之的是新型天线.Zero不可联网.性能稍弱.</li></ul><h3 id="按用途"><a href="#按用途" class="headerlink" title="按用途"></a>按用途</h3><ul><li>个人服务器: 4B(1/2GB),3B+.</li><li>性能需求强: 4B(4/8GB),CM系列.</li><li>普通开发: 3A+/3B+/4B(1/2GB).</li><li>体积: 3A+/Zero W.</li></ul><p>为什么没有Zero?</p><p>因为它不能联网!</p><h3 id="下期预告"><a href="#下期预告" class="headerlink" title="下期预告"></a>下期预告</h3><blockquote><p>玩转树莓派4B!</p><p>Coming Soon…</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> 随笔 </tag>
+            
+            <tag> 树莓派 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Shell数据对拍</title>
+      <link href="/2020/04/28/shell-shu-ju-dui-pai/"/>
+      <url>/2020/04/28/shell-shu-ju-dui-pai/</url>
+      
+        <content type="html"><![CDATA[<p>最近转Linux,学了一点shell script,发现对拍程序可以这样写:</p><span id="more"></span><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> data.out数据生成器,true.out对拍,ans.out要测试的程序</span></span><br><span class="line">data.out|true.out &gt; true.ans</span><br><span class="line">data.out|ans.out &gt; ans.ans</span><br><span class="line">diff ans.ans true.ans</span><br><span class="line"><span class="meta">#</span><span class="bash"> -----</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 如果没有数据生成器</span></span><br><span class="line">cat data.txt|true.out &gt; true.ans</span><br><span class="line">cat data.txt|ans.out &gt; ans.ans</span><br><span class="line">diff ans.ans true.ans</span><br></pre></td></tr></table></figure><p>然后就可以实现对拍数据了</p><blockquote><p>注:关于”<code>|</code>“管道操作符详见<a href="https://afgxf.github.io/2020/04/27/Bash-Pipes/">这篇文章</a></p></blockquote><p>也可以写一个<code>test.sh</code></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash">1|<span class="variable">$2</span> &gt; true.ans</span></span><br><span class="line"><span class="meta">$</span><span class="bash">1|<span class="variable">$3</span> &gt; ans.ans</span></span><br><span class="line">diff ans.ans true.ans</span><br><span class="line"><span class="meta">#</span><span class="bash"> -----</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 如果没有数据生成器</span></span><br><span class="line">cat $1|$2 &gt; true.ans</span><br><span class="line">cat $1|$3 &gt; ans.ans</span><br><span class="line">diff ans.ans true.ans</span><br></pre></td></tr></table></figure><p>然后可以通过<code>./test.sh &lt;数据/生成器&gt; &lt;对拍程序&gt; &lt;要测试的程序&gt;</code>愉快的对拍了QWQ</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> Shell </tag>
+            
+            <tag> bash </tag>
+            
+            <tag> zsh </tag>
+            
+            <tag> Linux </tag>
+            
+            <tag> Pipeline </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>P5661 公交换乘 题解</title>
+      <link href="/2020/04/28/p5661-gong-jiao-huan-cheng-ti-jie/"/>
+      <url>/2020/04/28/p5661-gong-jiao-huan-cheng-ti-jie/</url>
+      
+        <content type="html"><![CDATA[<p>那这就很厉害了<br><a href="https://www.luogu.com.cn/record/33168573">R33168573 记录详情</a></p><span id="more"></span><h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>维护一个100005大小的栈<code>S</code>,结构<code>transfer&#123;p,t,used&#125;</code></p><ul><li>输入<code>n</code></li><li>循环如下<ul><li>输入<code>type,price,time</code></li><li>如果是地铁<ul><li><code>ans+=price;</code></li><li><code>Push(S,&#123;price,time&#125;);</code></li></ul></li><li>如果是公交<ul><li>指针<code>tick=NULL</code>;</li><li>从<code>max(0,S.top-45)</code>循环到<code>S.top</code><ul><li>如果<code>OK(S[i])</code><ul><li><code>tick=&amp;S[i];</code></li><li><code>S[i].used=true</code></li><li><code>break;</code></li></ul></li></ul></li><li>如果<code>tick==NULL</code><ul><li><code>ans+=price;</code></li></ul></li></ul></li></ul></li><li>输出<code>ans;</code><blockquote><p>talk is cheap and show me the code.</p></blockquote><h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">transfer</span> &#123;</span></span><br><span class="line">  <span class="keyword">long</span> <span class="keyword">long</span> p, t;</span><br><span class="line">  <span class="keyword">bool</span> used;</span><br><span class="line">&#125;;</span><br><span class="line">transfer S[<span class="number">100005</span>] = &#123;<span class="number">0</span>&#125;;<span class="comment">//栈,只压不弹</span></span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> top = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">const</span> transfer null = &#123;<span class="number">-1</span>, <span class="number">-1</span>, <span class="number">0</span>&#125;;<span class="comment">//这样比较方便判定</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Push</span><span class="params">(transfer S[], transfer t)</span> </span>&#123;</span><br><span class="line">  S[top] = t;</span><br><span class="line">  top++;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//条件判断</span></span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">OK</span><span class="params">(<span class="keyword">const</span> <span class="keyword">long</span> <span class="keyword">long</span> &amp;n, <span class="keyword">const</span> <span class="keyword">long</span> <span class="keyword">long</span> &amp;p, <span class="keyword">const</span> <span class="keyword">long</span> <span class="keyword">long</span> &amp;t)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (S[n].used || S[n].p &lt; p || t - S[n].t &gt; <span class="number">45</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//只能单独写一个了</span></span><br><span class="line"><span class="function"><span class="keyword">long</span> <span class="keyword">long</span> <span class="title">select</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (top - <span class="number">45</span> &lt; <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> top - <span class="number">45</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="keyword">long</span> n;</span><br><span class="line">  <span class="keyword">long</span> <span class="keyword">long</span> ans = <span class="number">0</span>;</span><br><span class="line">  cin &gt;&gt; n;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">long</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">    <span class="keyword">long</span> <span class="keyword">long</span> type, p, t;</span><br><span class="line">    cin &gt;&gt; type &gt;&gt; p &gt;&gt; t;</span><br><span class="line">    <span class="keyword">if</span> (type == <span class="number">1</span>) &#123;</span><br><span class="line">      <span class="keyword">const</span> transfer *trans = &amp;null;</span><br><span class="line">      <span class="keyword">for</span> (<span class="keyword">long</span> <span class="keyword">long</span> j = <span class="built_in">select</span>(); j &lt; top; j++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">OK</span>(j, p, t)) &#123;</span><br><span class="line">          trans = &amp;S[j];</span><br><span class="line">          S[j].used = <span class="literal">true</span>;</span><br><span class="line">          <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">if</span> (trans == &amp;null) &#123;<span class="comment">//如果未找到符合条件的票</span></span><br><span class="line">        ans += p;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      transfer tmp = &#123;p, t, <span class="literal">false</span>&#125;;<span class="comment">//这里可以删掉</span></span><br><span class="line">      <span class="built_in">Push</span>(S, tmp);                <span class="comment">//然后这里Push(S,(transfer)&#123;p,t,false&#125;);</span></span><br><span class="line">      ans += p;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  cout &lt;&lt; ans;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2></li></ul><p>关于这个算法的复杂度,我想说:$O(45n)$.</p><p>说多了都是泪啊.</p><p>具体可以看<a href="https://www.luogu.com.cn/discuss/show/212582">这个</a>和<a href="https://www.luogu.com.cn/discuss/show/213648">这个</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> 题解 </tag>
+            
+            <tag> 洛谷 </tag>
+            
+            <tag> NOIP普及/CSP-J </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Bash Pipes</title>
+      <link href="/2020/04/27/bash-pipes/"/>
+      <url>/2020/04/27/bash-pipes/</url>
+      
+        <content type="html"><![CDATA[<h1 id="它是什么"><a href="#它是什么" class="headerlink" title="它是什么"></a>它是什么</h1><p>先看一组样例:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat index.js|node|<span class="built_in">echo</span>&gt;&gt;out.txt <span class="comment">#其实就是node ./index.js&gt;&gt;out.txt</span></span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">log</span>|<span class="built_in">echo</span>&gt;&gt;history.log<span class="comment">#保存log</span></span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find ./ xxx|sort <span class="comment">#排序输出</span></span><br></pre></td></tr></table></figure><span id="more"></span><h1 id="它怎么用"><a href="#它怎么用" class="headerlink" title="它怎么用"></a>它怎么用</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">command1|command2[|commandN...]</span><br></pre></td></tr></table></figure><p>将command1的stdout定向到command2的stdin,再将command2的stdout定向到command3的stdin,……</p><h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p>没有。</p><p>对。就是很没用。<del>goto一般的存在</del>有时还被斥责多余</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> Shell </tag>
+            
+            <tag> bash </tag>
+            
+            <tag> zsh </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
