@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>线性代数 1:线性方程组</title>
+      <link href="/2021/09/12/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B01-%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84/"/>
+      <url>/2021/09/12/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B01-%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84/</url>
+      
+        <content type="html"><![CDATA[<h1 id="线性方程组及其解法"><a href="#线性方程组及其解法" class="headerlink" title="线性方程组及其解法"></a>线性方程组及其解法</h1><h2 id="一般形式"><a href="#一般形式" class="headerlink" title="一般形式"></a>一般形式</h2><p>对于方程组</p><p>$$<br>\begin{matrix}<br>a_{11}x_1 &amp; a_{12}x_1 &amp; a_{13}x_1 &amp; \cdots &amp; a_{1n}x_1 =  b_1 \\<br>a_{21}x_2 &amp; a_{22}x_2 &amp; a_{23}x_2 &amp; \cdots &amp; a_{2n}x_2 = b_2 \\<br>&amp;&amp;&amp;\vdots \\<br>a_{n.1}x_n &amp; a_{n,2}x_n &amp; a_{n,3}x_n &amp; \cdots &amp; a_{n.n}x_n = b_n \\<br>\end{matrix}<br>$$</p><p>矩阵</p><p>$$<br>\left[\begin{matrix}<br>a_{11} &amp; a_{12} &amp; a_{13} &amp; \cdots &amp; a_{1n} &amp; b_1 \\<br>a_{21} &amp; a_{22} &amp; a_{23} &amp; \cdots &amp; a_{2n} &amp; b_2 \\<br>&amp;&amp;&amp;\vdots \\<br>a_{n.1} &amp; a_{n,2} &amp; a_{n,3} &amp; \cdots &amp; a_{n.n} &amp; b_n \\<br>\end{matrix}\right]<br>$$</p><p>称为该方程组的<strong>增广矩阵</strong>.</p><p>要解该方程组,使用高斯消元法,有以下三种基本方法:</p><ul><li><strong>倍加变换</strong>:将一行的倍数($\neq0$)加到另一行上.</li><li><strong>对换变换</strong>:将两行交换位置.</li><li><strong>倍乘变换</strong>:将一行乘上一个数($\neq0$).</li></ul><p>最终将方程化为如下形式:</p><p>$$<br>\left[\begin{matrix}<br>1 &amp; 0 &amp; 0 &amp; \cdots &amp; 0 &amp; b_1 \\<br>0 &amp; 1 &amp; 0 &amp; \cdots &amp; 0 &amp; b_2 \\<br>&amp;&amp;&amp;\ddots \\<br>0 &amp; 0 &amp; 0 &amp; \cdots &amp; 1 &amp; b_n \\<br>\end{matrix}\right]<br>$$</p><p>则解为</p><p>$$<br>x_1=b_1,x_2=b_2,x_3=b_3,\cdots,x_n=b_n<br>$$</p><h2 id="解的情况"><a href="#解的情况" class="headerlink" title="解的情况"></a>解的情况</h2><p>化简增广矩阵,则有</p><ol><li><p>假设出现类似这样的行</p><p>$$\left[\begin{matrix}0 &amp; 0 &amp; 0 &amp; \cdots &amp; 0 &amp; b\end{matrix}\right]$$</p><p>那么方程组<strong>不相容</strong>,无解.</p></li><li><p>否则至少有一个解.</p></li></ol><h1 id="阶梯矩阵"><a href="#阶梯矩阵" class="headerlink" title="阶梯矩阵"></a>阶梯矩阵</h1><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>形如这样的矩阵叫做<strong>阶梯型</strong>:</p><p>$$<br>\left[\begin{matrix}<br>\blacksquare &amp; \blacksquare &amp; \blacksquare &amp; \cdots &amp; \blacksquare &amp; b_1 \\<br>0 &amp; \blacksquare &amp; \blacksquare &amp; \cdots &amp; \blacksquare &amp; b_2 \\<br>&amp;&amp;&amp;\ddots \\<br>0 &amp; 0 &amp; 0 &amp; \cdots &amp; \blacksquare &amp; b_n \\<br>\end{matrix}\right]<br>$$</p><p>即</p><ol><li>每一非零行都在零行之上.</li><li>每一行的先导元素都在前一行的先导元素右侧.</li><li>每一行的先导元素下方都是 0.</li></ol><p>如果矩阵还满足以下的性质,则称为<strong>简化阶梯型</strong>:</p><ol start="4"><li>每一行的先导元素都是 1.</li><li>每一行有且仅有先导元素 1 不为 0.</li></ol><p>例如,矩阵$(3)$为简化阶梯型矩阵的实例.</p><h2 id="化简"><a href="#化简" class="headerlink" title="化简"></a>化简</h2><h3 id="化简为阶梯型矩阵"><a href="#化简为阶梯型矩阵" class="headerlink" title="化简为阶梯型矩阵"></a>化简为阶梯型矩阵</h3><ol><li>由最左侧的非零列开始.</li><li>在该列顶端选取第一个主元(如有必要可以进行对换变换).</li><li>用倍加变换将下面的元素变成 0.</li><li>对剩下的子矩阵进行该算法.</li></ol><h3 id="进一步化简"><a href="#进一步化简" class="headerlink" title="进一步化简"></a>进一步化简</h3><p>从最右边的主元开始,将主元上面的数字变为 0.</p><p>若某个主元不是 1,用倍乘变换把他变成 1.</p><p>此时得到简化阶梯型矩阵.</p><h2 id="解"><a href="#解" class="headerlink" title="解"></a>解</h2><h3 id="基本变量-amp-自由变量"><a href="#基本变量-amp-自由变量" class="headerlink" title="基本变量 &amp; 自由变量"></a>基本变量 &amp; 自由变量</h3><p>主元列对应的变量称为<strong>基本变量</strong>.</p><p>其余的变量称为<strong>自由变量</strong>.</p><h3 id="存在-amp-唯一"><a href="#存在-amp-唯一" class="headerlink" title="存在 &amp; 唯一 ?"></a>存在 &amp; 唯一 ?</h3><ol><li>第一种情况在<a href="#%E8%A7%A3%E7%9A%84%E6%83%85%E5%86%B5">解的情况</a>中定义了</li><li>当方程组相容时,有如下两种情况:<ul><li>当存在自由变量时,方程组有<strong>通解</strong>.</li><li>当仅存在基本变量时,方程组有<strong>唯一解</strong>.</li></ul></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> Linear Algebra </tag>
+            
+            <tag> 线性代数 </tag>
+            
+            <tag> 学习 </tag>
+            
+            <tag> 数学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>新的博客,新的开始</title>
       <link href="/2021/08/26/new-blog/"/>
       <url>/2021/08/26/new-blog/</url>

@@ -1,0 +1,467 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>线性代数 1:线性方程组 - AFGXF&#39;s Blog</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="AFGXF,OI,Blog,"> 
+    <meta name="description" content="线性方程组及其解法一般形式对于方程组
+$$\begin{matrix}a_{11}x_1 &amp;amp; a_{12}x_1 &amp;amp; a_{13}x_1 &amp;amp; \cdots &amp;amp; a_{,"> 
+    <meta name="author" content="AFGXF"> 
+    <link rel="alternative" href="atom.xml" title="AFGXF&#39;s Blog" type="application/atom+xml"> 
+    <link rel="icon" href="/img/avatar.png"> 
+    
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1429596_nzgqgvnmkjb.css">
+
+    
+<link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.7.2/animate.min.css">
+
+    
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+
+    
+<link rel="stylesheet" href="//cdn.bootcss.com/codemirror/5.48.4/codemirror.min.css">
+
+    
+<link rel="stylesheet" href="//cdn.bootcss.com/codemirror/5.48.4/theme/dracula.css">
+
+    
+<link rel="stylesheet" href="/css/obsidian.css">
+
+    
+<link rel="stylesheet" href="/css/ball-atom.min.css">
+
+    
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+
+    
+    <script>var musiclist = "891340515"</script>
+    
+<script src="/js/loadaplayer.js"></script>
+
+    <!-- 引用依赖 -->
+    
+<link rel="stylesheet" href="/aplayer/dist/APlayer.min.css">
+
+    
+<script src="/aplayer/dist/APlayer.min.js"></script>
+<script src="/js/Meting.min.js"></script>
+
+    
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+<body class="loading">
+    <div class="loader">
+        <div class="la-ball-atom la-2x">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <span id="config-title" style="display:none">AFGXF&#39;s Blog</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div class="scrollbar gradient-bg-rev"></div>
+<div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <div class="navigation animated fadeIn fast delay-1s">
+        <img id="home-icon" class="icon-home" src="/img/avatar.png" alt="" data-url="https://afgxf.github.io">
+        <div id="play-icon" title="Play/Pause" class="iconfont icon-play"></div>
+        <h3 class="subtitle">线性代数 1:线性方程组</h3>
+        <div class="social">
+            <!--        <div class="like-icon">-->
+            <!--            <a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
+            <!--        </div>-->
+            <div>
+                <div class="share">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="section">
+        <div class=article-header-wrapper>
+    <div class="article-header">
+        <div class="article-cover animated fadeIn" style="
+            animation-delay: 600ms;
+            animation-duration: 1.2s;
+            background-image: 
+                radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
+                url('/img/cover.jpg') ">
+        </div>
+        <div class="else">
+            <p class="animated fadeInDown">
+                
+                <a href="javascript:;"><b>「 </b>文章<b> 」</b></a>
+                
+                九月 12, 2021
+            </p>
+            <h3 class="post-title animated fadeInDown"><a href="/2021/09/12/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B01-%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84/" title="线性代数 1:线性方程组" class="">线性代数 1:线性方程组</a>
+            </h3>
+            
+            <p class="post-count animated fadeInDown">
+                
+                <span>
+                    <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                    3.5k
+                </span>
+                
+                
+                <span>
+                    <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                    3 mins.
+                </span>
+                
+                
+                
+            </p>
+            
+            
+            <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Linear-Algebra/" rel="tag">Linear Algebra</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E5%AD%A6%E4%B9%A0/" rel="tag">学习</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag">数学</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" rel="tag">线性代数</a></li></ul>
+            
+        </div>
+    </div>
+</div>
+
+<div class="screen-gradient-after">
+    <div class="screen-gradient-content">
+        <div class="screen-gradient-content-inside">
+            <div class="bold-underline-links screen-gradient-sponsor">
+                <p>
+                    <span class="animated fadeIn delay-1s"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="article">
+    <div class='main'>
+        <div class="content markdown animated fadeIn">
+            <h1 id="线性方程组及其解法"><a href="#线性方程组及其解法" class="headerlink" title="线性方程组及其解法"></a>线性方程组及其解法</h1><h2 id="一般形式"><a href="#一般形式" class="headerlink" title="一般形式"></a>一般形式</h2><p>对于方程组</p>
+<p>$$<br>\begin{matrix}<br>a_{11}x_1 &amp; a_{12}x_1 &amp; a_{13}x_1 &amp; \cdots &amp; a_{1n}x_1 =  b_1 \\<br>a_{21}x_2 &amp; a_{22}x_2 &amp; a_{23}x_2 &amp; \cdots &amp; a_{2n}x_2 = b_2 \\<br>&amp;&amp;&amp;\vdots \\<br>a_{n.1}x_n &amp; a_{n,2}x_n &amp; a_{n,3}x_n &amp; \cdots &amp; a_{n.n}x_n = b_n \\<br>\end{matrix}<br>$$</p>
+<p>矩阵</p>
+<p>$$<br>\left[\begin{matrix}<br>a_{11} &amp; a_{12} &amp; a_{13} &amp; \cdots &amp; a_{1n} &amp; b_1 \\<br>a_{21} &amp; a_{22} &amp; a_{23} &amp; \cdots &amp; a_{2n} &amp; b_2 \\<br>&amp;&amp;&amp;\vdots \\<br>a_{n.1} &amp; a_{n,2} &amp; a_{n,3} &amp; \cdots &amp; a_{n.n} &amp; b_n \\<br>\end{matrix}\right]<br>$$</p>
+<p>称为该方程组的<strong>增广矩阵</strong>.</p>
+<p>要解该方程组,使用高斯消元法,有以下三种基本方法:</p>
+<ul>
+<li><strong>倍加变换</strong>:将一行的倍数($\neq0$)加到另一行上.</li>
+<li><strong>对换变换</strong>:将两行交换位置.</li>
+<li><strong>倍乘变换</strong>:将一行乘上一个数($\neq0$).</li>
+</ul>
+<p>最终将方程化为如下形式:</p>
+<p>$$<br>\left[\begin{matrix}<br>1 &amp; 0 &amp; 0 &amp; \cdots &amp; 0 &amp; b_1 \\<br>0 &amp; 1 &amp; 0 &amp; \cdots &amp; 0 &amp; b_2 \\<br>&amp;&amp;&amp;\ddots \\<br>0 &amp; 0 &amp; 0 &amp; \cdots &amp; 1 &amp; b_n \\<br>\end{matrix}\right]<br>$$</p>
+<p>则解为</p>
+<p>$$<br>x_1=b_1,x_2=b_2,x_3=b_3,\cdots,x_n=b_n<br>$$</p>
+<h2 id="解的情况"><a href="#解的情况" class="headerlink" title="解的情况"></a>解的情况</h2><p>化简增广矩阵,则有</p>
+<ol>
+<li><p>假设出现类似这样的行</p>
+<p>$$\left[\begin{matrix}0 &amp; 0 &amp; 0 &amp; \cdots &amp; 0 &amp; b\end{matrix}\right]$$</p>
+<p>那么方程组<strong>不相容</strong>,无解.</p>
+</li>
+<li><p>否则至少有一个解.</p>
+</li>
+</ol>
+<h1 id="阶梯矩阵"><a href="#阶梯矩阵" class="headerlink" title="阶梯矩阵"></a>阶梯矩阵</h1><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>形如这样的矩阵叫做<strong>阶梯型</strong>:</p>
+<p>$$<br>\left[\begin{matrix}<br>\blacksquare &amp; \blacksquare &amp; \blacksquare &amp; \cdots &amp; \blacksquare &amp; b_1 \\<br>0 &amp; \blacksquare &amp; \blacksquare &amp; \cdots &amp; \blacksquare &amp; b_2 \\<br>&amp;&amp;&amp;\ddots \\<br>0 &amp; 0 &amp; 0 &amp; \cdots &amp; \blacksquare &amp; b_n \\<br>\end{matrix}\right]<br>$$</p>
+<p>即</p>
+<ol>
+<li>每一非零行都在零行之上.</li>
+<li>每一行的先导元素都在前一行的先导元素右侧.</li>
+<li>每一行的先导元素下方都是 0.</li>
+</ol>
+<p>如果矩阵还满足以下的性质,则称为<strong>简化阶梯型</strong>:</p>
+<ol start="4">
+<li>每一行的先导元素都是 1.</li>
+<li>每一行有且仅有先导元素 1 不为 0.</li>
+</ol>
+<p>例如,矩阵$(3)$为简化阶梯型矩阵的实例.</p>
+<h2 id="化简"><a href="#化简" class="headerlink" title="化简"></a>化简</h2><h3 id="化简为阶梯型矩阵"><a href="#化简为阶梯型矩阵" class="headerlink" title="化简为阶梯型矩阵"></a>化简为阶梯型矩阵</h3><ol>
+<li>由最左侧的非零列开始.</li>
+<li>在该列顶端选取第一个主元(如有必要可以进行对换变换).</li>
+<li>用倍加变换将下面的元素变成 0.</li>
+<li>对剩下的子矩阵进行该算法.</li>
+</ol>
+<h3 id="进一步化简"><a href="#进一步化简" class="headerlink" title="进一步化简"></a>进一步化简</h3><p>从最右边的主元开始,将主元上面的数字变为 0.</p>
+<p>若某个主元不是 1,用倍乘变换把他变成 1.</p>
+<p>此时得到简化阶梯型矩阵.</p>
+<h2 id="解"><a href="#解" class="headerlink" title="解"></a>解</h2><h3 id="基本变量-amp-自由变量"><a href="#基本变量-amp-自由变量" class="headerlink" title="基本变量 &amp; 自由变量"></a>基本变量 &amp; 自由变量</h3><p>主元列对应的变量称为<strong>基本变量</strong>.</p>
+<p>其余的变量称为<strong>自由变量</strong>.</p>
+<h3 id="存在-amp-唯一"><a href="#存在-amp-唯一" class="headerlink" title="存在 &amp; 唯一 ?"></a>存在 &amp; 唯一 ?</h3><ol>
+<li>第一种情况在<a href="#%E8%A7%A3%E7%9A%84%E6%83%85%E5%86%B5">解的情况</a>中定义了</li>
+<li>当方程组相容时,有如下两种情况:<ul>
+<li>当存在自由变量时,方程组有<strong>通解</strong>.</li>
+<li>当仅存在基本变量时,方程组有<strong>唯一解</strong>.</li>
+</ul>
+</li>
+</ol>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls"
+                data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+            <ul id="audio-list" style="display:none">
+                
+                
+                <li title='0' data-url='/statics/C418 - Moog City 2.mp3'></li>
+                
+                    
+            </ul>
+            
+                        
+            
+            
+        </div>
+        <div class="sidebar">
+            <div class="box animated fadeInRight">
+                <div class="subbox">
+                    <img src="/img/avatar.png" height=300 width=300></img>
+                    <p>AFGXF</p>
+                    <span>Welcome back Commander.</span>
+                    <dl>
+                        
+                            
+                                <dd><a href="https://github.com/AFGXF" target="_blank"><span
+                                    class=" iconfont icon-github"></span></a></dd>
+                            
+                            
+                            
+                        
+                        
+                    </dl>
+                </div>
+                <ul>
+                    <li><a href="/">8 <p>文章</p></a></li>
+                    <li><a href="/categories">0 <p>分类</p></a></li>
+                    <li><a href="/tags">19 <p>标签</p></a></li>
+                </ul>
+            </div>
+            
+            
+            
+            <div class="box sticky animated fadeInRight faster">
+                <div id="toc" class="subbox">
+                    <h4>目录</h4>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84%E5%8F%8A%E5%85%B6%E8%A7%A3%E6%B3%95"><span class="toc-number">1.</span> <span class="toc-text">线性方程组及其解法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E8%88%AC%E5%BD%A2%E5%BC%8F"><span class="toc-number">1.1.</span> <span class="toc-text">一般形式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E7%9A%84%E6%83%85%E5%86%B5"><span class="toc-number">1.2.</span> <span class="toc-text">解的情况</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%98%B6%E6%A2%AF%E7%9F%A9%E9%98%B5"><span class="toc-number">2.</span> <span class="toc-text">阶梯矩阵</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89"><span class="toc-number">2.1.</span> <span class="toc-text">定义</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8C%96%E7%AE%80"><span class="toc-number">2.2.</span> <span class="toc-text">化简</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8C%96%E7%AE%80%E4%B8%BA%E9%98%B6%E6%A2%AF%E5%9E%8B%E7%9F%A9%E9%98%B5"><span class="toc-number">2.2.1.</span> <span class="toc-text">化简为阶梯型矩阵</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%8C%96%E7%AE%80"><span class="toc-number">2.2.2.</span> <span class="toc-text">进一步化简</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3"><span class="toc-number">2.3.</span> <span class="toc-text">解</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E5%8F%98%E9%87%8F-amp-%E8%87%AA%E7%94%B1%E5%8F%98%E9%87%8F"><span class="toc-number">2.3.1.</span> <span class="toc-text">基本变量 &amp; 自由变量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%9C%A8-amp-%E5%94%AF%E4%B8%80"><span class="toc-number">2.3.2.</span> <span class="toc-text">存在 &amp; 唯一 ?</span></a></li></ol></li></ol></li></ol>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+    </div>
+</div>
+    <div id="back-to-top" class="animated fadeIn faster">
+        <div class="flow"></div>
+        <span class="percentage animated fadeIn faster">0%</span>
+        <span class="iconfont icon-top02 animated fadeIn faster"></span>
+    </div>
+</body>
+<footer>
+    <p class="copyright" id="copyright">
+        &copy; 2021
+        <span class="gradient-text">
+            AFGXF
+        </span>.
+        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
+        Theme
+        <span class="gradient-text">
+            <a href="https://github.com/TriDiamond/hexo-theme-obsidian" title="Obsidian" target="_blank" rel="noopener">Obsidian</a>
+        </span>
+        <small><a href="https://github.com/TriDiamond/hexo-theme-obsidian/blob/master/CHANGELOG.md" title="v1.4.9.3" target="_blank" rel="noopener">v1.4.9.3</a></small>
+        
+        
+    </p>
+</footer>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "TeX",
+      availableFonts: ["STIX", "TeX"],
+      linebreaks: {
+        automatic: true
+      },
+      EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"]
+      ],
+      processEscapes: true,
+      ignoreClass: "tex2jax_ignore|dno",
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+      noUndefined: {
+        attributes: {
+          mathcolor: "red",
+          mathbackground: "#FFEEEE",
+          mathsize: "90%"
+        }
+      },
+      Macros: {
+        href: "{}"
+      }
+    },
+    messageStyle: "none"
+  });
+</script>
+<script>
+  function initialMathJax() {
+    MathJax.Hub.Queue(function () {
+      var all = MathJax.Hub.getAllJax(),
+        i;
+      // console.log(all);
+      for (i = 0; i < all.length; i += 1) {
+        console.log(all[i].SourceElement().parentNode)
+        all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+    });
+  }
+
+  function reprocessMathJax() {
+    if (typeof MathJax !== 'undefined') {
+      MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+    }
+  }
+</script>
+
+
+ 
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/obsidian.js"></script>
+<script src="/js/jquery.truncate.js"></script>
+<script src="/js/search.js"></script>
+ 
+<script src="//cdn.bootcss.com/typed.js/2.0.10/typed.min.js"></script>
+ 
+<script src="//cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
+ 
+<script src="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+
+<script src="https://cdn.bootcss.com/codemirror/5.48.4/codemirror.min.js"></script>
+ 
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/javascript/javascript.min.js"></script>
+  
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/css/css.min.js"></script>
+  
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/xml/xml.min.js"></script>
+  
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/htmlmixed/htmlmixed.min.js"></script>
+  
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/clike/clike.min.js"></script>
+  
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/php/php.min.js"></script>
+  
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/shell/shell.min.js"></script>
+  
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/python/python.min.js"></script>
+   
+<link rel="stylesheet" href="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.css">
+<link rel="stylesheet" href="//cdn.bootcss.com/photoswipe/4.1.3/default-skin/default-skin.min.css">
+
+
+<script src="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.js"></script>
+<script src="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+  
+
+<script>
+  function initialTyped() {
+    var typedTextEl = $('.typed-text');
+    if (typedTextEl && typedTextEl.length > 0) {
+      var typed = new Typed('.typed-text', {
+        strings: ['Welcome back Commander.', '欢迎回来,指挥官.'],
+        typeSpeed: 90,
+        loop: true,
+        loopCount: Infinity,
+        backSpeed: 20,
+      });
+    }
+  }
+
+  if ($('.article-header') && $('.article-header').length) {
+    $(document).ready(function () {
+      initialTyped();
+    });
+  }
+</script>
+
+
+
+
+<!-- 引用依赖 -->
+<script>document.write(aplayerconf)</script>
+
+
+
+
+</html>

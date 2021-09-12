@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>AFGXF&#39;s Blog • Posts by &#34;线性代数&#34; tag</title>
+        <link>https://afgxf.github.io</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Sun, 12 Sep 2021 20:43:03 +0800</pubDate>
+        <lastBuildDate>Sun, 12 Sep 2021 20:43:03 +0800</lastBuildDate>
+        <category>WHK</category>
+        <category>文化课</category>
+        <category>笔记</category>
+        <category>博客管理</category>
+        <category>Shell</category>
+        <category>bash</category>
+        <category>zsh</category>
+        <category>Linux</category>
+        <category>New</category>
+        <category>随笔</category>
+        <category>树莓派</category>
+        <category>题解</category>
+        <category>洛谷</category>
+        <category>NOIP普及/CSP-J</category>
+        <category>Pipeline</category>
+        <category>Linear Algebra</category>
+        <category>线性代数</category>
+        <category>学习</category>
+        <category>数学</category>
+        <item>
+            <guid isPermalink="true">https://afgxf.github.io/2021/09/12/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B01-%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84/</guid>
+            <title>线性代数 1:线性方程组</title>
+            <link>https://afgxf.github.io/2021/09/12/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B01-%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84/</link>
+            <category>笔记</category>
+            <category>Linear Algebra</category>
+            <category>线性代数</category>
+            <category>学习</category>
+            <category>数学</category>
+            <pubDate>Sun, 12 Sep 2021 20:43:03 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;线性方程组及其解法&#34;&gt;&lt;a href=&#34;#线性方程组及其解法&#34; class=&#34;headerlink&#34; title=&#34;线性方程组及其解法&#34;&gt;&lt;/a&gt;线性方程组及其解法&lt;/h1&gt;&lt;h2 id=&#34;一般形式&#34;&gt;&lt;a href=&#34;#一般形式&#34; class=&#34;headerlink&#34; title=&#34;一般形式&#34;&gt;&lt;/a&gt;一般形式&lt;/h2&gt;&lt;p&gt;对于方程组&lt;/p&gt;
+&lt;p&gt;$$&lt;br&gt;\begin{matrix}&lt;br&gt;a_{11}x_1 &amp;amp; a_{12}x_1 &amp;amp; a_{13}x_1 &amp;amp; \cdots &amp;amp; a_{1n}x_1 =  b_1 \\&lt;br&gt;a_{21}x_2 &amp;amp; a_{22}x_2 &amp;amp; a_{23}x_2 &amp;amp; \cdots &amp;amp; a_{2n}x_2 = b_2 \\&lt;br&gt;&amp;amp;&amp;amp;&amp;amp;\vdots \\&lt;br&gt;a_{n.1}x_n &amp;amp; a_{n,2}x_n &amp;amp; a_{n,3}x_n &amp;amp; \cdots &amp;amp; a_{n.n}x_n = b_n \\&lt;br&gt;\end{matrix}&lt;br&gt;$$&lt;/p&gt;
+&lt;p&gt;矩阵&lt;/p&gt;
+&lt;p&gt;$$&lt;br&gt;\left[\begin{matrix}&lt;br&gt;a_{11} &amp;amp; a_{12} &amp;amp; a_{13} &amp;amp; \cdots &amp;amp; a_{1n} &amp;amp; b_1 \\&lt;br&gt;a_{21} &amp;amp; a_{22} &amp;amp; a_{23} &amp;amp; \cdots &amp;amp; a_{2n} &amp;amp; b_2 \\&lt;br&gt;&amp;amp;&amp;amp;&amp;amp;\vdots \\&lt;br&gt;a_{n.1} &amp;amp; a_{n,2} &amp;amp; a_{n,3} &amp;amp; \cdots &amp;amp; a_{n.n} &amp;amp; b_n \\&lt;br&gt;\end{matrix}\right]&lt;br&gt;$$&lt;/p&gt;
+&lt;p&gt;称为该方程组的&lt;strong&gt;增广矩阵&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;要解该方程组,使用高斯消元法,有以下三种基本方法:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;倍加变换&lt;/strong&gt;:将一行的倍数($\neq0$)加到另一行上.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;对换变换&lt;/strong&gt;:将两行交换位置.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;倍乘变换&lt;/strong&gt;:将一行乘上一个数($\neq0$).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最终将方程化为如下形式:&lt;/p&gt;
+&lt;p&gt;$$&lt;br&gt;\left[\begin{matrix}&lt;br&gt;1 &amp;amp; 0 &amp;amp; 0 &amp;amp; \cdots &amp;amp; 0 &amp;amp; b_1 \\&lt;br&gt;0 &amp;amp; 1 &amp;amp; 0 &amp;amp; \cdots &amp;amp; 0 &amp;amp; b_2 \\&lt;br&gt;&amp;amp;&amp;amp;&amp;amp;\ddots \\&lt;br&gt;0 &amp;amp; 0 &amp;amp; 0 &amp;amp; \cdots &amp;amp; 1 &amp;amp; b_n \\&lt;br&gt;\end{matrix}\right]&lt;br&gt;$$&lt;/p&gt;
+&lt;p&gt;则解为&lt;/p&gt;
+&lt;p&gt;$$&lt;br&gt;x_1=b_1,x_2=b_2,x_3=b_3,\cdots,x_n=b_n&lt;br&gt;$$&lt;/p&gt;
+&lt;h2 id=&#34;解的情况&#34;&gt;&lt;a href=&#34;#解的情况&#34; class=&#34;headerlink&#34; title=&#34;解的情况&#34;&gt;&lt;/a&gt;解的情况&lt;/h2&gt;&lt;p&gt;化简增广矩阵,则有&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;假设出现类似这样的行&lt;/p&gt;
+&lt;p&gt;$$\left[\begin{matrix}0 &amp;amp; 0 &amp;amp; 0 &amp;amp; \cdots &amp;amp; 0 &amp;amp; b\end{matrix}\right]$$&lt;/p&gt;
+&lt;p&gt;那么方程组&lt;strong&gt;不相容&lt;/strong&gt;,无解.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;否则至少有一个解.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;阶梯矩阵&#34;&gt;&lt;a href=&#34;#阶梯矩阵&#34; class=&#34;headerlink&#34; title=&#34;阶梯矩阵&#34;&gt;&lt;/a&gt;阶梯矩阵&lt;/h1&gt;&lt;h2 id=&#34;定义&#34;&gt;&lt;a href=&#34;#定义&#34; class=&#34;headerlink&#34; title=&#34;定义&#34;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;形如这样的矩阵叫做&lt;strong&gt;阶梯型&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;$$&lt;br&gt;\left[\begin{matrix}&lt;br&gt;\blacksquare &amp;amp; \blacksquare &amp;amp; \blacksquare &amp;amp; \cdots &amp;amp; \blacksquare &amp;amp; b_1 \\&lt;br&gt;0 &amp;amp; \blacksquare &amp;amp; \blacksquare &amp;amp; \cdots &amp;amp; \blacksquare &amp;amp; b_2 \\&lt;br&gt;&amp;amp;&amp;amp;&amp;amp;\ddots \\&lt;br&gt;0 &amp;amp; 0 &amp;amp; 0 &amp;amp; \cdots &amp;amp; \blacksquare &amp;amp; b_n \\&lt;br&gt;\end{matrix}\right]&lt;br&gt;$$&lt;/p&gt;
+&lt;p&gt;即&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;每一非零行都在零行之上.&lt;/li&gt;
+&lt;li&gt;每一行的先导元素都在前一行的先导元素右侧.&lt;/li&gt;
+&lt;li&gt;每一行的先导元素下方都是 0.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;如果矩阵还满足以下的性质,则称为&lt;strong&gt;简化阶梯型&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;每一行的先导元素都是 1.&lt;/li&gt;
+&lt;li&gt;每一行有且仅有先导元素 1 不为 0.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;例如,矩阵$(3)$为简化阶梯型矩阵的实例.&lt;/p&gt;
+&lt;h2 id=&#34;化简&#34;&gt;&lt;a href=&#34;#化简&#34; class=&#34;headerlink&#34; title=&#34;化简&#34;&gt;&lt;/a&gt;化简&lt;/h2&gt;&lt;h3 id=&#34;化简为阶梯型矩阵&#34;&gt;&lt;a href=&#34;#化简为阶梯型矩阵&#34; class=&#34;headerlink&#34; title=&#34;化简为阶梯型矩阵&#34;&gt;&lt;/a&gt;化简为阶梯型矩阵&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;由最左侧的非零列开始.&lt;/li&gt;
+&lt;li&gt;在该列顶端选取第一个主元(如有必要可以进行对换变换).&lt;/li&gt;
+&lt;li&gt;用倍加变换将下面的元素变成 0.&lt;/li&gt;
+&lt;li&gt;对剩下的子矩阵进行该算法.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;进一步化简&#34;&gt;&lt;a href=&#34;#进一步化简&#34; class=&#34;headerlink&#34; title=&#34;进一步化简&#34;&gt;&lt;/a&gt;进一步化简&lt;/h3&gt;&lt;p&gt;从最右边的主元开始,将主元上面的数字变为 0.&lt;/p&gt;
+&lt;p&gt;若某个主元不是 1,用倍乘变换把他变成 1.&lt;/p&gt;
+&lt;p&gt;此时得到简化阶梯型矩阵.&lt;/p&gt;
+&lt;h2 id=&#34;解&#34;&gt;&lt;a href=&#34;#解&#34; class=&#34;headerlink&#34; title=&#34;解&#34;&gt;&lt;/a&gt;解&lt;/h2&gt;&lt;h3 id=&#34;基本变量-amp-自由变量&#34;&gt;&lt;a href=&#34;#基本变量-amp-自由变量&#34; class=&#34;headerlink&#34; title=&#34;基本变量 &amp;amp; 自由变量&#34;&gt;&lt;/a&gt;基本变量 &amp;amp; 自由变量&lt;/h3&gt;&lt;p&gt;主元列对应的变量称为&lt;strong&gt;基本变量&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;其余的变量称为&lt;strong&gt;自由变量&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;存在-amp-唯一&#34;&gt;&lt;a href=&#34;#存在-amp-唯一&#34; class=&#34;headerlink&#34; title=&#34;存在 &amp;amp; 唯一 ?&#34;&gt;&lt;/a&gt;存在 &amp;amp; 唯一 ?&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;第一种情况在&lt;a href=&#34;#%E8%A7%A3%E7%9A%84%E6%83%85%E5%86%B5&#34;&gt;解的情况&lt;/a&gt;中定义了&lt;/li&gt;
+&lt;li&gt;当方程组相容时,有如下两种情况:&lt;ul&gt;
+&lt;li&gt;当存在自由变量时,方程组有&lt;strong&gt;通解&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;当仅存在基本变量时,方程组有&lt;strong&gt;唯一解&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
